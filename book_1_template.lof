@@ -1,0 +1,28 @@
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1}{\ignorespaces This figure shows the opening page when you open up the Revit Application.}}{8}{section*.6}
+\contentsline {figure}{\numberline {2}{\ignorespaces This is new file popup, you see this whenever you wish to create a new project. You will always be creating a Project, not a Project Template.}}{8}{section*.6}
+\contentsline {figure}{\numberline {3}{\ignorespaces A list of the templates that will popup on your screen}}{9}{section*.6}
+\contentsline {figure}{\numberline {4}{\ignorespaces A full screen example of the Revit workspace. Composed of multiple ribbon banners, and views. The large whitespace is the plane on which you have your building}}{9}{section*.6}
+\contentsline {figure}{\numberline {5}{\ignorespaces The revit top bar, at it's base.}}{10}{section*.7}
+\contentsline {figure}{\numberline {6}{\ignorespaces A picture of the \menu {Annotation} bar in revit.}}{10}{section*.7}
+\contentsline {figure}{\numberline {7}{\ignorespaces A picture of the \menu {Massing \& site} bar in revit.}}{10}{section*.7}
+\contentsline {figure}{\numberline {8}{\ignorespaces A picture of the \menu {View} bar in revit.}}{11}{section*.7}
+\contentsline {figure}{\numberline {9}{\ignorespaces A picture of the \menu {Modify} bar in revit.}}{11}{section*.7}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {10}{\ignorespaces A picture of the \menu {Revit Sidebar}}}{13}{chapter*.8}
+\contentsline {figure}{\numberline {11}{\ignorespaces A view of the elevations: East, North, South, and West}}{13}{section*.9}
+\contentsline {figure}{\numberline {12}{\ignorespaces Elevation lines that have been clicked once}}{13}{Item.3}
+\contentsline {figure}{\numberline {13}{\ignorespaces The options bar, which is mostly used to set chain settings and offsets}}{14}{Item.10}
+\contentsline {figure}{\numberline {14}{\ignorespaces When creating new elevations lines, you should drag from one end to the other to ensure consistency. In this case, \menu {Level 3} will be the level of entry, because its at a base altitude.}}{14}{Item.11}
+\contentsline {figure}{\numberline {15}{\ignorespaces Make sure that your final elevations are named likewise}}{14}{Item.11}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {16}{\ignorespaces When selecting an object in Revit. There is, of course, different object types. The image in this figure is the \menu {Object Selector}. For walls specifically, there are multiple types that we use. When referenced, the Object type can be explained as \menu {Sidebar > Properties > Object Selector > Basic Wall Retaining - 12" Concrete} or plainly as \menu {Basic Wall Retaining - 12" Concrete}}}{17}{Item.18}
+\contentsline {figure}{\numberline {17}{\ignorespaces The foundation walls}}{18}{Item.20}
+\contentsline {figure}{\numberline {18}{\ignorespaces The final foundation walls}}{19}{Item.30}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {19}{\ignorespaces Initial topographic points}}{21}{Item.34}
+\contentsline {figure}{\numberline {20}{\ignorespaces Second set of topographic points}}{22}{Item.36}
+\contentsline {figure}{\numberline {21}{\ignorespaces Third topographic points}}{22}{Item.38}
+\contentsline {figure}{\numberline {22}{\ignorespaces Building pad lines}}{23}{Item.41}
+\addvspace {10\p@ }
+\contentsfinish 

@@ -1,0 +1,491 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Tufte-Style Book (Minimal Template)
+% LaTeX Template
+% Version 1.0 (5/1/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% IMPORTANT NOTE:
+% In addition to running BibTeX to compile the reference list from the .bib
+% file, you will need to run MakeIndex to compile the index at the end of the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{tufte-book} % Use the tufte-book class which in turn uses the tufte-common class
+
+\hypersetup{colorlinks} % Comment this line if you don't wish to have colored links
+
+\usepackage{microtype} % Improves character and word spacing
+
+\usepackage{lipsum} % Inserts dummy text
+
+\usepackage{booktabs} % Better horizontal rules in tables
+
+\usepackage{tikz}
+
+\usepackage{menukeys}
+
+\usepackage{enumitem}
+	
+\usepackage{amssymb}
+
+\usepackage[utf8]{inputenc}
+
+\usepackage{graphicx} % Needed to insert images into the document
+\graphicspath{{Images/}} % Sets the default location of pictures
+\setkeys{Gin}{width=\linewidth,totalheight=\textheight,keepaspectratio} % Improves figure scaling
+
+\usepackage{fancyvrb} % Allows customization of verbatim environments
+\fvset{fontsize=\normalsize} % The font size of all verbatim text can be changed here
+
+\newcommand{\hangp}[1]{\makebox[0pt][r]{(}#1\makebox[0pt][l]{)}} % New command to create parentheses around text in tables which take up no horizontal space - this improves column spacing
+\newcommand{\hangstar}{\makebox[0pt][l]{*}} % New command to create asterisks in tables which take up no horizontal space - this improves column spacing
+
+\usepackage{xspace} % Used for printing a trailing space better than using a tilde (~) using the \xspace command
+
+\newcommand{\monthyear}{\ifcase\month\or January\or February\or March\or April\or May\or June\or July\or August\or September\or October\or November\or December\fi\space\number\year} % A command to print the current month and year
+
+\newcommand{\openepigraph}[2]{ % This block sets up a command for printing an epigraph with 2 arguments - the quote and the author
+\begin{fullwidth}
+\sffamily\large
+\begin{doublespace}
+\noindent\allcaps{#1}\\ % The quote
+\noindent\allcaps{#2} % The author
+\end{doublespace}
+\end{fullwidth}
+}
+
+\newcommand{\blankpage}{\newpage\hbox{}\thispagestyle{empty}\newpage} % Command to insert a blank page
+
+\usepackage{makeidx} % Used to generate the index
+\makeindex % Generate the index which is printed at the end of the document
+
+
+
+%----------------------------------------------------------------------------------------
+%	BOOK META-INFORMATION
+%----------------------------------------------------------------------------------------
+
+\title{On Autodesk Revit} % Title of the book
+
+\author{Bern Staples} % Author
+
+\publisher{Northlake Christian School} % Publisher
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+
+\maketitle % Print the title page
+
+%----------------------------------------------------------------------------------------
+%	COPYRIGHT PAGE
+%----------------------------------------------------------------------------------------
+
+\newpage
+\begin{fullwidth}
+~\vfill
+\thispagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{\baselineskip}
+Copyright \copyright\ \the\year\ \thanklessauthor
+
+\par\smallcaps{Published by \thanklesspublisher}
+
+\par\smallcaps{http://www.northlakechristian.org}
+
+\par  This information is free; you can redistribute it and/or modify it
+    under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This work is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+    
+    The source code of this document may be found under a public GIT repository here: \smallcaps{http://www.github.com/hendenburg/onautodeskrevit}
+
+    You should have received a copy of the GNU General Public License
+    along with this work; if not, write to the Free Software
+    Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.\index{license}
+
+\par\textit{First printing, \monthyear}
+\end{fullwidth}
+
+%----------------------------------------------------------------------------------------
+
+\tableofcontents % Print the table of contents
+
+%----------------------------------------------------------------------------------------
+
+\listoffigures % Print a list of figures
+
+%----------------------------------------------------------------------------------------
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	INTRODUCTION
+%----------------------------------------------------------------------------------------
+
+\cleardoublepage
+\chapter{Introduction} % The asterisk leaves out this chapter from the table of contents
+\label{ch:0}
+
+The following guide and user manual utilizes Autodesk Revit, a BMI program which is used to create Architectural Visualizations \cite{revit2016}. The guide is based on Autodesk's own guide \cite{guide2006}
+
+%------------------------------------------------
+
+\section{Starting Revit}
+
+
+To start Revit, either find the program via its icon, or by searching for \menu{Revit} by bringing up the search menu with the \keys{Windows Key}
+
+\section{Getting adjusted to Revit}
+The Figure \ref{fig:revmainscene} represents an accurate representation of a Revit opening screen. When opening a Revit project file this screen is circumvented.
+
+\section{Starting your first project, and an introduction to Revit's interface}
+Let's antiquate ourselves with the introduction page. The introduction page is made up of two primary sections: \menu{Projects} and \menu{Families}. For the time being you can ignore the \menu{Families} section, and focus only on the former.
+
+\begin{figure}
+	\includegraphics[width=\linewidth]{revitmainscene.PNG}
+	\caption{This figure shows the opening page when you open up the Revit Application.}
+	\emph{There are three major parts to the Revit Application Main Page.}
+	\label{fig:revmainscene}
+\end{figure}
+\begin{marginfigure}
+	\includegraphics[width=\linewidth]{revitnewfile.png}
+	\caption{This is new file popup, you see this whenever you wish to create a new project. You will always be creating a Project, not a Project Template.}
+	\emph{You will not be creating any files with the Construction Template}
+	\label{fig:revnewfile}
+\end{marginfigure}
+
+
+\newthought{Among the links} are: \menu{Open...} which opens an already existing project, and \menu{New...} which presents to you the process to create a new project, and various templates. The images and captions within the project section are existing projects that have been opened recently.
+
+
+
+\newthought{We are going} to start a new project. If you click on \menu{New...} you should have a popup window like in Figure \ref{fig:revnewfile}. 
+
+Once you click \menu{Browse...} you should be taken to another popup. The popup, which is shown in figure \ref{fig:revtmpview} has a list of templates used in Revit Projects. The template you will want to you is called \menu{default}. Once the template is selected click \menu{Ok} and be off onto the project.
+
+
+\begin{figure}
+	\includegraphics[width=\linewidth]{revittemplateview.png}
+	\caption{A list of the templates that will popup on your screen}
+	\label{fig:revtmpview}
+\end{figure}
+\marginnote{if you can't find it, the file path is: \directory{ProgramData / Autodesk / RVT 2016 / Templates / US Imperial / default}}
+
+\begin{figure*}
+	\includegraphics[width=\linewidth]{revitfullpageview.png}
+	\caption{A full screen example of the Revit workspace. Composed of multiple ribbon banners, and views. The large whitespace is the plane on which you  have your building}
+	\label{fig:revfullview}
+\end{figure*}
+
+\clearpage
+\section{Elements of the Revit Interface}
+
+\begin{figure*}
+	\includegraphics[width=\linewidth]{revittopbar.png}
+	\caption{The revit top bar, at it's base.}
+	\label{fig:revtopbar.png}
+\end{figure*}
+
+In the figure \ref{fig:revtopbar.png} you can see what we will refer to as the \menu{Top Bar}, this will be the location where all the tools of this program are located.
+
+\marginnote{You won't be using the majority of these tabs, but it's smart to know what they do, along with the tools inside. See the Menu Tools sections reference for more. For the majority of this tutorial the only tabs will be: \menu{Architecture}, \menu{Annotate}, \menu{Massing \& Site}, \menu{View}, and \menu{Modify}} 
+ 
+\newthought{You can see} icons for each tool, and above those is a line of tabs, called Ribbons, starting with \menu{Architecture}, then \menu{Structure}, \menu{Systems}, etc. When you click one of the ribbon labels you are taken to a new section of tools. 
+
+As you create the house below, you will become familiar with all these tools; each tool is essential in the creation of a functioning model.
+
+\newthought{The \menu{Architecture} tab}, which is show in Figure \ref{fig:revtopbar.png}, contains the tools to create the basic formation of a house: the foundation, the floors, the walls, and the windows.
+
+\marginnote{Beware: overuse of the \mbox{\menu{Massing \& Site > Toposurface}}, and the \menu{Massing \& Site > Site Component} tools can lead to your computer becoming slow and sluggish.}
+
+\newthought{The \menu{Annotate} tab} which is shown in the figure \ref{fig:revanntab} contains the tools which you use to markup the project. These tools document your creation, while also making presentation easier. They can be used to determine the size of your model, the angels of you walls, the width of you house for a variety of reasons.
+
+
+\begin{figure*}
+	\includegraphics[width=\linewidth]{revitannotationbar.png}
+	\caption{A picture of the \menu{Annotation} bar in revit.}
+	\label{fig:revanntab}
+\end{figure*}
+
+
+
+\newthought{The \menu{Massing \& Site} tab}, in figure \ref{fig:revmastab} is used to model and map the terrain of your model.
+
+\begin{figure*}
+	\includegraphics[width=\linewidth]{revitmassingsitebar.png}
+	\caption{A picture of the \menu{Massing \& site} bar in revit.}
+	\label{fig:revmastab}
+\end{figure*}
+
+
+\newthought{The \menu{View} tab}, shown in figure \ref{fig:revviewtab}, contains essential tools for viewing and presenting your project. The \mbox{\menu{View > 3d View}} tool will become vital for visualizing your house in the future.
+
+
+\begin{figure*}
+	\includegraphics[width=\linewidth]{revitviewtab.png}
+	\caption{A picture of the \menu{View} bar in revit.}
+	\label{fig:revviewtab}
+\end{figure*}
+
+\newthought{The \menu{Modify} tab}, in figure \ref{fig:revmodtab}, is different from the others. While the previous tabs were meant to interact with the building, this tab is primarily focused on interacting with the objects that make the building up. For instance, splitting a singular wall is done inside the modify tab.
+
+\begin{figure*}
+	\includegraphics[width=\linewidth]{revitmodifytab.png}
+	\caption{A picture of the \menu{Modify} bar in revit.}
+	\label{fig:revmodtab}
+\end{figure*}
+
+
+
+
+
+
+%------------------------------------------------
+
+
+%----------------------------------------------------------------------------------------
+
+\mainmatter
+
+%----------------------------------------------------------------------------------------
+%	CHAPTER 1
+%----------------------------------------------------------------------------------------
+
+\chapter{Chapter 1 - Creating Your House}
+\label{ch:1}
+Figure \ref{fig:revfinhouse} is a picture of what your house will look like.
+
+
+\begin{marginfigure}
+	\includegraphics[width=\linewidth]{revitsidebar}
+	\caption{A picture of the \menu{Revit Sidebar}}
+	\label{fig:revsidebar}
+\end{marginfigure}
+
+\newthought{On the right} in figure \ref{fig:revsidebar}, you can see the \menu{Revit Sidebar}. This sidebar, which should be on the left hand of your revit window, is the detail window for everything you do. in the \menu{Revit Sidebar > Properties} you can see the type of object, and the specifications for it. in the \menu{Revit Sidebar > Project Browser} you can see a list of all the views and documents associated with your project.
+ 
+%------------------------------------------------
+
+\section{Selecting and Creating Elevations}
+The following guide's purpose is to establish an understanding of altitudes and elevations in 3d architecture.
+\begin{enumerate}
+
+	\begin{marginfigure}
+		\includegraphics[width=\linewidth]{revitelevationslistview.png}
+		\caption{A view of the elevations: East, North, South, and West}
+		\label{fig:revelevlistview}
+	\end{marginfigure}
+	
+	\item Within \menu{Sidebar > Project Browser > Elevations} is the elevations list.
+	\item Refer to figure \ref{fig:revelevlistview} and click on the \menu{Sidebar > Project Browser > Elevations > South} button
+	\item You should see elevation lines in the main workspace. if you click along the line once, it will become like figure \ref{fig:revelevclick}, you should click and drag the leftmost circle to the right until the line becomes shorter.
+	
+	\begin{marginfigure}
+		\includegraphics[width=\linewidth]{revitelevationsclick.png}
+		\caption{Elevation lines that have been clicked once}
+		\label{fig:revelevclick}
+	\end{marginfigure}
+	
+	\item Each elevation has two main elements, the name and the altitude. Generally your foundation should be several feet under the ground.
+	\item You have two elevations currently: \menu{Level 1} and \menu{Level 2}
+	\item You can either use your scroll wheel too zoom into the elevations, or you can use the keybinding: \keys{Ctrl + Z + F}
+	\item If you click on the text of \menu{Level 1} where it says \menu{0'-0"} it will allow the input of a new altitude
+	\item Click on the altitude of both \menu{Level 1} and \menu{Level 2} and change their altitudes
+	
+	\begin{itemize}
+		\item For \menu{Level 1} where the altitude should be \menu{-14'0"}
+		\marginnote{\menu{-4'0"} generally is a good altitude to keep your foundation base, \menu{Level 1} is the foundation for this house, for instance.}
+		\item for \menu{Level 0} where the altitude should be \menu{10'0"}
+	\end{itemize}
+	
+	\section{Creating additional elevations}
+	\marginnote{A context menu is what happens when you right click, the first option should be cancel, in this case, the option you're looking for should be the 10th down}
+	\item If you right click on the uppermost elevation, \menu{Level 2}, you should get a context menu, it should include the option: \menu{Create Similar}. If you click on that option it should select the \menu{Architecture > Level} tool which creates an annotation, but it also has the same selected options as the elevation you selected.
+	\item If you look at Figure \ref{fig:revoptbar} you should see what is called the \menu{Options Bar}, on it you can see multiple options: \menu{Make Plan View} and \menu{Offset:} which equals \menu{0'0"}
+	
+	\begin{marginfigure}
+		\includegraphics[width=\linewidth]{revitoptionsbar.png}
+		\caption{The options bar, which is mostly used to set chain settings and offsets}
+		\label{fig:revoptbar}
+	
+	\end{marginfigure}
+	
+	\item To create an elevation that is \menu{10'} above \menu{Level 1} Change the \menu{Option Bar > Offset:} to equal \menu{10'0"} while \menu{Create Similar} is selected, and click from the leftmost point of \menu{Level 2} and drag to the rightmost point. Reference figure \ref{fig:revelevlinethree}
+	
+	\begin{figure}
+		\includegraphics[width=\linewidth]{revitelevationlinethree.png}
+		\caption{When creating new elevations lines, you should drag from one end to the other to ensure consistency. In this case, \menu{Level 3} will be the level of entry, because its at a base altitude.}
+		\emph{Make sure that your elevations look similar to this figure}
+		\label{fig:revelevlinethree}
+	\end{figure}
+	
+	\begin{marginfigure}
+		\includegraphics[width=\linewidth]{revitelevationsname.png}
+		\caption{Make sure that your final elevations are named likewise}
+		\label{fig:revelevname}
+	\end{marginfigure}
+	
+	\item Use the same procedure as used to create \menu{Level 3} to create another elevation at \menu{10'0"}. To do this, make sure your \menu{Options Bar > Offset:} is set to \menu{10'} and create a similar elevation above \menu{Level 3}
+	\item Similar in method to changing a elevation's altitude is changing an elevation's name. For instance, click on \menu{Level 1} where it says 'Level 1', so that it becomes a text box like when changing the altitude. Enter the following name: \menu{00 Foundation}
+	\begin{itemize}
+		\item Name the \menu{Level 1} this: \menu{00 Foundation}
+		\item Name the \menu{Level 2} this: \menu{01 Lower Level}
+		\item Name the \menu{Level 3} this: \menu{02 Entry Level}
+		\item name the \menu{Level 4} this: \menu{03 Roof Level}
+	\end{itemize}
+\end{enumerate}
+
+\chapter{Chapter 2 - Creating the Base of the House}
+The purpose of this guide is to instruct in the method of creating the foundation for the project.
+\section{Creating the Retaining Walls}
+\begin{enumerate}
+	\marginnote{This is why we named our elevations the way we did in the previous chapter. Our floor plans are listed alphabetically in the \menu{Project Browser} so when we have the numbers preceding the name, they are both descriptive, and correctly ordered.}
+	\item Select this view \menu{Sidebar > Project Browser > Floor Plans > 00 Foundation}
+	\item Zoom into the lower right quadrant of the workspace
+	\item From there, select the following tool: \menu{Architecture > Wall Tool}. When you click on the screen with this tool selected you create points, just like on a graph you click or drag another point out to create a line, or a wall in this case.
+	\marginnote{It's good to make sure that your walls have the correct base and height. If the program does not let you select the correct height, while not perfect, another option is to choose unconnected for the \menu{Sidebar > Properties > Top Constraint} and then select the altitude for the elevation point, for instance, the offset would be \menu{10'0"} for \menu{02 Roof Level}}
+	\item If you remember the \menu{Sidebar} for the interface explanation, there was \menu{Sidebar > Properties}, inside this is the options for the wall.
+	
+	
+	\begin{tabular}{ c | c }
+		Settings & \menu{Basic Wall Retaining - 12" Concrete}\\
+		\hline
+		Location Line & Wall Centerline\\
+		Base Constraint & \menu{00 Foundation}\\
+		Base Offset & \menu{0'0"}\\
+		Top Constraint & Up to \menu{02 Entry Level}\\
+		Top Offset & \menu{0'0"}\\
+	\end{tabular}
+	
+	\item Click to create a base point, a line should begin to follow your cursor. You can easily create a wall by pointing your cursor in a direction, and typing in the distance.
+	
+	\begin{marginfigure}
+		\includegraphics[width=\linewidth]{revitobjecttype.png}
+		\caption{When selecting an object in Revit. There is, of course, different object types. The image in this figure is the \menu{Object Selector}. For walls specifically, there are multiple types that we use. When referenced, the Object type can be explained as \menu{Sidebar > Properties > Object Selector > Basic Wall Retaining - 12" Concrete} or plainly as \menu{Basic Wall Retaining - 12" Concrete}}
+		\label{fig:revobjtype}
+	\end{marginfigure}
+	
+	\item create a base point and move your cursor to the left: type \keys{40'}
+	\item If chain was selected in \menu{Option Bar > Chain:} then, you should just be able to move the cursor up and type in \keys{22'}, otherwise click on your last created point and repeat the aforementioned steps
+	\begin{figure}
+		\includegraphics[width=\linewidth]{revitfoundationwalls.png}
+		\caption{The foundation walls}
+		\emph{This is what your walls should look like}
+		\label{key:revfoundwalls}
+	\end{figure}
+	\item Repeat the same steps, moving your cursor right and typing: \keys{40'}
+	
+	
+	
+	\section{Creating your Foundation Walls}
+	\item Select your retaining walls with the following options
+	
+	\begin{tabular}{ c | c }
+		Settings & \menu{Basic Wall Foundation - 12" Concrete}\\
+		\hline
+		Location Line & Wall Centerline\\
+		Base Constraint & \menu{00 Foundation}\\
+		Base Offset & \menu{0'0"}\\
+		Top Constraint & Up to \menu{01 Lower Level}\\
+		Top Offset & \menu{0'0"}\\
+	\end{tabular}
+	
+	\item Create the walls on the outside
+	\begin{enumerate}
+		\item select the rightmost edge of the bottommost wall with the wall tool selected
+		\item Move the cursor to the right: type \menu{6'6"}
+		\item Move the cursor up: type \menu{5'}
+		\item move the cursor right: type \menu{10'6"}
+		\item meet the intersect where the topmost point of your wall becomes directly right of the rightmost point of the top wall.
+		\item Complete the walls by moving to the left until you hit the top wall.
+	\end{enumerate}
+	\item Figure \ref{fig:revfoundfinal} should be the final product of this level
+	
+	\begin{figure*}
+		\includegraphics[width=\linewidth]{revitfoundationfinal.png}
+		\caption{The final foundation walls}
+		\emph{Make sure your walls  look like this}
+		\label{fig:revfoundfinal}
+	\end{figure*}
+\end{enumerate}
+
+\chapter{Chapter 3 - Creating the Terrain}
+The purpose of this guide is to introduce the basics of terrain creation in Revit. This should explain the basics of pads and terrain.
+\section{Adding a Toposurface}
+\begin{enumerate}
+	\item Go to the following view: \menu{Sidebar > Project Browser > Floor Plans > Site}
+	\item Select the following tool: \menu{Massing \& Site > Toposurface}
+	\item Select the following options for \menu{Options Bar > Elevation:} to \menu{-0'6"}
+	\item Add points to the left side of the building, like the figure \ref{fig:revtopoinit}
+	\begin{figure}
+		\includegraphics[width=\linewidth]{revittopographicinitial.png}
+		\caption{Initial topographic points}
+		\emph{Work to make sure yours looks similar, not exact}
+		\label{fig:revtopoinit}
+	\end{figure}
+	\item Select the following options for \menu{Options Bar > Elevation:} to \menu{-10'}
+	\item Select the points as in the figure \ref{fig:revtopotwo}
+	\begin{figure}
+		\includegraphics[width=\linewidth]{revittopographictwo.png}
+		\caption{Second set of topographic points}
+		\emph{Work to make sure yours looks similar, not exact}
+		\label{fig:revtopotwo}
+	\end{figure}
+	\item Select the following options for \menu{Options Bar > Elevation:} to \menu{-11'}
+	\item Select the points as in the figure \ref{fig:revtopothree}
+	\begin{figure}
+		\includegraphics[width=\linewidth]{revittopographicthree.png}
+		\caption{Third topographic points}
+		\emph{Work to make sure yours looks similar, not exact}
+		\label{fig:revtopothree}
+	\end{figure}
+	\clearpage
+	\section{Setting up a Building Pad}
+	\item Having finished the terrain surface by clicking the big green checkmark.
+	\item To create a building pad click on each of the walls with the \menu{Massing \& Site > Building Pad} tool.
+	\item Click each wall, finally click the purple line with three parrallel lines attached: click it until the purples lines are only on the interior of the walls. Reference figure \ref{fig:revtopopad}
+	\begin{figure}
+		\includegraphics[width=\linewidth]{revittopographicpad.png}
+		\caption{Building pad lines}
+		\emph{Make sure your pad looks like this, it's not essential but recommended}
+		\ref{fig:revtopopad}
+	\end{figure}
+\end{enumerate}
+	
+
+
+%----------------------------------------------------------------------------------------
+
+\backmatter
+
+%----------------------------------------------------------------------------------------
+%	BIBLIOGRAPHY
+%----------------------------------------------------------------------------------------
+
+\bibliography{bibliography} % Use the bibliography.bib file for the bibliography
+\bibliographystyle{plainnat} % Use the plainnat style of referencing
+
+%----------------------------------------------------------------------------------------
+
+\printindex % Print the index at the very end of the document
+
+\end{document}

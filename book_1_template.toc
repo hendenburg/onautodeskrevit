@@ -12,5 +12,12 @@
 \contentsline {chapter}{Chapter 3 - Creating the Terrain}{21}{chapter*.14}
 \contentsline {section}{Adding a Toposurface}{21}{section*.15}
 \contentsline {section}{Setting up a Building Pad}{23}{section*.16}
-\contentsline {chapter}{Bibliography}{25}{chapter*.17}
+\contentsline {section}{Creating a 3D view}{23}{section*.17}
+\contentsline {chapter}{Chapter 4 - Creating Exterior Walls, Floors, and Roofs}{25}{chapter*.18}
+\contentsline {section}{Creating Exterior walls}{25}{section*.19}
+\contentsline {subsection}{Add walls to the entry level}{25}{subsection*.20}
+\contentsline {subsection}{Add walls to the Lower level}{26}{subsection*.21}
+\contentsline {section}{Creating a Roof}{27}{section*.22}
+\contentsline {subsection}{Draw a roof line}{27}{subsection*.23}
+\contentsline {chapter}{Bibliography}{29}{chapter*.24}
 \contentsfinish 

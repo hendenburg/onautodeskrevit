@@ -403,7 +403,7 @@ The purpose of this guide is to instruct in the method of creating the foundatio
 	\section{Creating your Foundation Walls}
 	\item Select your retaining walls with the following options
 	
-	\begin{tabular}{ c | c }
+	\newthought{}\begin{tabular}{ c | c }
 		Settings & \menu{Basic Wall Foundation - 12" Concrete}\\
 		\hline
 		Location Line & Wall Centerline\\
@@ -504,7 +504,7 @@ The purpose of this guide is to continue on the education of wall creation. This
 	
 	\marginnote{If you are having issues with seeing objects below the current view level, then change the following settings. While you have the view selected in the \menu{Sidebar > Properties} there is an option called \menu{View Range}, if you go into that setting and change the \menu{View Depth > Level:} option to the appropriate level you wish to have your view depth to.}
 	
-	\begin{tabular}{c | c}
+	\newthought{}\begin{tabular}{c | c}
 		Settings & \menu{Generic - 6"}\\
 		\hline
 		Location Line & Core Face Interior\\
@@ -527,7 +527,7 @@ The purpose of this guide is to continue on the education of wall creation. This
 	\item Open up the following: \menu{Sidebar > Project Browser > Floor Plans > 01 Lower Level}
 	\item Use the following settings:
 	
-	\begin{tabular}{c | c}
+	\newthought{}\begin{tabular}{c | c}
 		Settings & \menu{Generic - 6"}\\
 		\hline
 		Location Line & Core Face Interior\\
@@ -558,13 +558,24 @@ The purpose of this guide is to continue on the education of wall creation. This
 	\section{Creating a Roof}
 	\item Go to the following view: \menu{Sidebar > Project Browser > Floor Plans > 03 Roof Level}
 	\item the tool you should use is called: \menu{Architecture > Build > Roof}
+	\item The Roof should have the following settings in \menu{Sidebar > Properties}:
+	
+	\newthought{}\begin{tabular}{c|c}
+		Settings & \menu{Basic Roof Generic - 12} \\
+		Base offset & \menu{0'0"} \\
+		Rafter Cut & Plumb Cut \\
+		Slope & 1" / 12" \\
+	\end{tabular}
+	
 	\subsection{Draw a roof line}
+	
 	\item When you select the roof tool, you are brought to the modify tab, you will want to select the line tool, which is under \menu{Modify | Create Roof Footprint > Draw > Line Tool}. Selecting that tool allows you to create a roof in the same was as a wall, except to create a roof, you must create a closed perimeter with your lines to define the roof.
 	\item Make sure the option: \menu{Options Bar > Chain:} is not checkmarked, this means that when you click to create two points, it automatically starts to make the next points. 
+	\item Make sure the option: \menu{Options Bar > Defines Slope:} is checkmarked. This means that the future slope that you have will be based on this side of the roof.
 	
 	\begin{marginfigure}
 		\includegraphics[width=\linewidth]{revitroofintersect.png}
-		\caption[Revit Roof Intersection]{when you push a line past a walls end, it will give you guides in relation to other objects in the project. So for this one, you will want to click only when it gives you guide lines that reach to the leftmost wall.}
+		\caption[Revit Roof Intersection]{when you push a line past a walls end, it will give you guides in relation to other objects in the project. So for this one, you will want to click only when it gives you guide lines that reach to the rightmost wall.}
 		\label{fig:revroofinter}
 	\end{marginfigure}
 	
@@ -572,8 +583,182 @@ The purpose of this guide is to continue on the education of wall creation. This
 	
 	\subsection{Draw an offset roof line}
 	
-
+	\item As you did when creating an elevation line, to create a roof line that is offset from the roof\index{roof}, you will want to select an offset.
+	\item Select the option for your wall line: \menu{Options Bar > Offset:} should equal \menu{-3'0"} as well as make sure that \menu{Options Bar > Defines Slope:} is not checked for the remaining lines.
+	
+	\marginnote{Be sure when creating any object with an offset that the result is indeed offset from the initial line that you placed. Failing to realize this and fix the error just means more work for you.}
+	
+	\item On your workspace, click on the last point you made and travel upward until you hit the top edge of the leftmost wall.
+	\item Travel to the left until you hit the rightmost part of the to wall. 
+	\item Travel down until your last line is perpendicular with your first. 
+	\item Make your \menu{Options Bar > Offset:} to be \menu{0'} and connect the lines together, reference Figure \ref{fig:revrooflines} for an idea of what the finished product should be 
+	
+	\begin{figure}
+		\includegraphics[width=\linewidth]{revitrooflines.PNG}
+		\caption[Finished Roof Lines]{Your finished roof lines should be a singular line with define slope right against the southern wall. the rest of the lines should be offset \menu{3'0"} all along the wall}
+		\emph{Make sure that your roof looks exactly like this, or at least similar}
+		\label{fig:revrooflines}
+	\end{figure}
+	
+	\section{Creating Floors}
+	\subsection{Creating Lower Level Floors}
+	\item Open up the view: \menu{Side Bar > Project Browser > Floor Plans > 01 Lower Level}
+	\item Select the \menu{Architecture > Floors} tool, which you use to make floors, unsurprisingly
+	
+	\begin{marginfigure}
+		\includegraphics[width=\linewidth]{revitfloortool.png}
+		\caption[Revit Pick Walls Tool]{The tool you are using to create a floor is specifically made to fill a room or a certain amount of rooms by selecting the boundaries of the floor based on the surrounding walls.}
+		\emph{Make sure you are using the tool with the surrounding marquee}
+		\label{fig:revfloortool}
+	\end{marginfigure}
+	
+	\item The default tool selected should be sufficient, make sure you have the right tool selected, it's the \menu{Modify | Create Floor Boundary > Draw > Pick Walls} tool, check figure \ref{fig:revfloortool}
+	\item Click all the walls in \ref{01 Lower Level}. This should be the same method as creating the building pad, except make sure that the lines are all interior rather than exterior.
+	
+	\begin{figure}
+		\includegraphics[width=\linewidth]{revitlowerlevelfloor.png}
+		\caption[Lower level floors]{This should be the lower level floors, which are represented by the purple line. Make sure that the purple line is only on the interior}
+		\emph{Make sure yours looks exactly like this, or similar.}
+	\end{figure}
+	
+	\marginnote{The popups are in regards to the wall's geometry that you attach too. You will most likely never need to worry about that.}
+	\item Say no to all popups after creating the floor, for the time being, you do not need to worry about those
+	\subsection{Creating the Entry Level Walls}
+	\item The creation of the \menu{01 Entry Level} walls is a bit more hands on.
+	\item Navigate to \menu{Side Bar > Project Browser > Floor Plans > 01 Entry Level}.
+	\begin{marginfigure}
+		\includegraphics[width=\linewidth]{revitupperfloortool.png}
+		\caption{Upper Level Floor Tools}
+		\emph{Make sure you are using this tool, not the previous one.}
+		\label{fig:revupperlevelfloortool}
+	\end{marginfigure}
+	\item Instead of the tool you were using before, select the \menu{Line Tool}
+	\item Make sure that \menu{Options Bar > Chain:} is selected
+	\item From the top right place a point to create the flooring
+	\item Use the following method to create the upper level floors
+	\begin{enumerate}
+		\item Move to the right and type: \menu{36'}
+		\item Move down and type: \menu{16'6"}
+		\item Move to the right and type: \menu{25'}
+		\item Move down and type: \menu{4'6"}
+		\item Then move your cursor to the bottom left of the model and complete the sketch
+	\end{enumerate}
+	\begin{figure}
+	\includegraphics[width=\linewidth]{revitupperlevelfloors.png}
+	\caption[Upper level final floors]{The flooring for the upper level is essential. The fact that it doesn't fully cover that level is for the creation of a single atrium for the living room. As you get further you will see how the windows and stairs coincide with this design.}
+	\emph{Your Floor should look, exactly like, or similar to this.}
+	\end{figure}
+	\item Once you have done this, you may finish the floorplan by clicking the large green checkmark
+	\marginnote{Like before, any alert dialogs that pop up on the screen are not relevant to you, and should be either ignored or,if particularly concerning, consult your instructor.}
+	
+	\subsection{Viewing Your Floors in 3d}
+	\begin{marginfigure}
+		\includegraphics[width=\linewidth]{revit3dfloorcontext.png}
+		\caption[3D wall context menu]{What pops up here should be the caption menu when right clicking a wall. }
+		\label{fig:revthreedfloorcontx}
+	\end{marginfigure}
+	\item Select the view:\\ \menu{Side Bar > Project Browser > 3D Views > [What you named your primary 3D View]}
+	\item Now, using your 3D view wheel, position your building do the front-right corner is at the forefront, this should be the default position
+	\item, Right click the wall on the right: click on the context menu that comes up. Use the following options: \menu{Context Menu > Hide in View > By Element}
+	\begin{figure}
+		\includegraphics[width=\linewidth]{revit3dfloorview.png}
+		\caption{The final 3d floor view}
+		\emph{Your view should look similar to this, excluding view point discrepancies.}
+		\label{fig:revthreedfloorfinal}
+	\end{figure}
+	\item Reference the Figure \ref{fig:revthreedfloorfinal}, for a final look at what your 3d view should look like
+	 
 \end{enumerate}
+
+\chapter{Chapter 5 - Creating Interior Walls}
+\label{ch:5}
+In this guide you will continue on your education of wall creation. This time in the perview of interior wals.
+\section{Creating Lower Level Interior Walls}
+\begin{enumerate}
+	\item Open up the following view: \menu{Side Bar > Project Browser > Floor Plans > 01 Lower Level}
+	\item Use the following options for your wall properties
+	
+	\newthought{}\begin{tabular}{c | c}
+		Settings & \menu{Generic - 6"}\\
+		\hline
+		Location Line & Wall Centerline\\
+		Base Constraint & \menu{01 Lower Level Level}\\
+		Base Offset & \menu{0'0"}\\
+		Top Constraint & Up to \menu{02 Entry Level}\\
+		Top Offset & \menu{0'0"}\\
+	\end{tabular}
+	
+	\item Add walls:
+	\begin{enumerate}
+		\begin{marginfigure}
+			\includegraphics[width=\linewidth]{revitwalldistance.png}
+			\caption{Wall distance guide}
+			\emph{It should look like this when you click}
+			\label{fig:revwalldist}
+		\end{marginfigure}
+		\item Beginning at the far left wall, move your cursor until the guide states that you are \menu{20"0'} away from the right corner wall. Look at the figure \ref{fig:revwalldist} to determine how it should look when you click.
+		\item Create a wall perpendicular to that point, and bring it down until it reaches the far wall.
+		\item At this point, refer to the figure \ref{fig:revlowerlevelwallsfinal} to continue the walls on this level. It is not essential that your walls are exactly the same.
+		\begin{figure}
+			\includegraphics[width=\linewidth]{revitlowerlevelwallsfinal.png}
+			\caption{The lower level walls guide}
+			\emph{Your walls should look similar, but not exactly like this. All of this can be changed later of course}
+			\label{fig:revlowerlevelwallsfinal}
+		\end{figure}
+		
+		\begin{marginfigure}
+			\includegraphics[width=\linewidth]{revitlowerlevelwallstools.png}
+			\caption{The split tool selected}
+			\label{fig:revlowerlevelmodtool}
+		\end{marginfigure}
+		\item You should use the \menu{Modify | Place Walls > Modify > Split Element} tool to split a point in the far right interior wall, to create a hallway.
+		\item Select both end of the now split wall, to create the hallway. Check figure \ref{fig:revlowerlevelwallshallway} 
+		\begin{figure}
+			\includegraphics[width=\linewidth]{revitlowerlevelwallshallway.PNG}
+			\caption{A completed hallway}
+			\emph{Your hallway should look very similar, if not exact to this}
+			\label{fig:revlowerlevelwallshallway}
+		\end{figure}
+	\end{enumerate}
+	\section{Creating the Upper Level Walls}
+	\item In this section, you're going to take charge on the construction of the upper level walls, following a figure. This should be on view: \menu{Side Bar > Project Browser > Floor Plans > 02 Upper Level}, and using the following options:
+	
+	\newthought{}\begin{tabular}{c | c}
+		Settings & \menu{Generic - 6"}\\
+		\hline
+		Location Line & Wall Centerline\\
+		Base Constraint & \menu{02 Upper Level}\\
+		Base Offset & \menu{0'0"}\\
+		Top Constraint & Up to \menu{03 Roof Level}\\
+		Top Offset & \menu{0'0"}\\
+	\end{tabular}
+	
+	\marginnote{Advanced: When you are creating your upper level walls, if you have trouble seeing because you are seeing the lower level walls at fulltone, do this: To select multiple walls for an options hold down the \keys{Ctrl} key and click the lowerlevel walls that you want to be halftone. When those are selected, rightclick on one of them, and click \menu{Context Menu > Override Graphics in View > Element}, a popup should come onto your screen. in the top right corner of that popup is a checkbox that says \menu{Halftone:} if you check that and click apply, then it will be halftone}
+	\item In the figure \ref{fig:revuppwallsfinal} you should be creating the walls that are not halftone, meaning the walls that are the darker shade.
+	
+	
+	\begin{figure*}
+		\includegraphics[width=\linewidth]{revitupperfloorsfinal.PNG}
+		\caption{Upper level interior walls}
+		\emph{You can change these up however you want, but make sure they have similar composition}
+		\label{fig:revuppwallsfinal}
+	\end{figure*}
+	
+	\item When you are done creating the walls, if you wish to remove the ability to see the lowerlevel walls while on that level, use this option while the white background is clicked: \menu{Side Bar > Properties > View Level > View Depth > Level:} and change the option to \menu{Associated Level}
+\end{enumerate}
+
+\chapter{Chapter 6 - Creating Doors and Windows}
+\label{ch:6}
+In this particular section, you will be guided into adding Doors and Windows, which also doubles as a guide to the initial selection of objects
+\Section{Adding Exterior Doors}
+\begin{enumerate}
+	\item Go to the view level: \menu{Side Bar > Project Browser > Floor Plans > 01 Lower Level}
+	
+	\subsection{Adding Objects from a Library}
+		\item 
+\end{enumerate}
+
+	
 
 %----------------------------------------------------------------------------------------
 

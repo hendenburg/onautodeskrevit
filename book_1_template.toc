@@ -16,8 +16,17 @@
 \contentsline {chapter}{Chapter 4 - Creating Exterior Walls, Floors, and Roofs}{25}{chapter*.18}
 \contentsline {section}{Creating Exterior walls}{25}{section*.19}
 \contentsline {subsection}{Add walls to the entry level}{25}{subsection*.20}
-\contentsline {subsection}{Add walls to the Lower level}{26}{subsection*.21}
+\contentsline {subsection}{Add walls to the Lower level}{25}{subsection*.21}
 \contentsline {section}{Creating a Roof}{27}{section*.22}
 \contentsline {subsection}{Draw a roof line}{27}{subsection*.23}
-\contentsline {chapter}{Bibliography}{29}{chapter*.24}
+\contentsline {subsection}{Draw an offset roof line}{28}{subsection*.24}
+\contentsline {section}{Creating Floors}{28}{section*.25}
+\contentsline {subsection}{Creating Lower Level Floors}{28}{subsection*.26}
+\contentsline {subsection}{Creating the Entry Level Walls}{29}{subsection*.27}
+\contentsline {subsection}{Viewing Your Floors in 3d}{30}{subsection*.28}
+\contentsline {chapter}{Chapter 5 - Creating Interior Walls}{33}{chapter*.29}
+\contentsline {section}{Creating Lower Level Interior Walls}{33}{section*.30}
+\contentsline {section}{Creating the Upper Level Walls}{34}{section*.31}
+\contentsline {chapter}{Chapter 6 - Creating Doors and Windows}{37}{chapter*.32}
+\contentsline {chapter}{Bibliography}{39}{chapter*.33}
 \contentsfinish 

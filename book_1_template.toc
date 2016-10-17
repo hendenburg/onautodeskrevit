@@ -47,8 +47,10 @@
 \contentsline {subsection}{Adding a Wall to the Entry Deck}{47}{subsection*.49}
 \contentsline {subsection}{Shortening the Deck}{47}{subsection*.50}
 \contentsline {subsection}{Adding a Sloped Floor}{48}{subsection*.51}
-\contentsline {chapter}{Chapter 8 Creating Stairs and Railings}{49}{chapter*.52}
+\contentsline {chapter}{Chapter 8 - Creating Stairs and Railings}{49}{chapter*.52}
 \contentsline {section}{Creating Stairs}{49}{section*.53}
 \contentsline {section}{Creating Railing}{50}{section*.54}
-\contentsline {chapter}{Bibliography}{51}{chapter*.55}
+\contentsline {section}{Creating The Roof Eave}{51}{section*.55}
+\contentsline {chapter}{Chapter 9 - Creating the Project Documentation}{53}{chapter*.56}
+\contentsline {chapter}{Bibliography}{55}{chapter*.57}
 \contentsfinish 

@@ -1058,7 +1058,7 @@ In this section of the guide, you will be learning how to create new wall types,
 		\end{marginfigure}
 \end{enumerate}
 
-\chapter{Chapter 8 Creating Stairs and Railings}
+\chapter{Chapter 8 - Creating Stairs and Railings}
 \label{ch:8}
 In this section of the guide you will complete the interior of the house. You will learn more about objects by placing Stairs and Railings
 \begin{enumerate}
@@ -1098,8 +1098,49 @@ In this section of the guide you will complete the interior of the house. You wi
 	\item Change the railing type to: \menu{Railing Guardrail - Pipe }
 	
 \section{Creating Railing}
+	\item Go to the \menu{Side Bar > Project Browser > Floor Plans > 02 Entry Level} view
+	\item Select the tool: \menu{Architecture > Circulation > Railing}
+	\begin{marginfigure}
+		\includegraphics[width=\linewidth]{revitupperentryrail.png}
+		\caption{The Entry Level Railing}
+		\emph{Your Railing should look like this. You can stop the railing when you reach the side wall, but i suggest that you keep the railing until you reach the endpoint of the first floor segment}
+		\label{fig:revupperentryrail}
+	\end{marginfigure}
+	\item In your options, set: \menu{Options Bar > Offset:} to the setting \menu{0'4"}
+	\item Add railings to the Entry Deck. Reference Figure \ref{fig:revupperentryrail}
+	\item Your Railing options should be:
+	
+	\newthought{}\begin{tabular}{c | c}
+		Settings & \menu{Railing Handrail - Pipe} \\
+		\hline \\
+		Base Level & \menu{02 Entry Level}
+	\end{tabular}
+	
+	
+	\item Do the same, except with the Floor that borders between the Curtain Walls, and the Stairs. Along with the side of the stairs. Use your own judgment, but also Reference the figure \ref{fig:revmainupperfloorrail}. \emph{Because of the location of railing, I suggest negating to \menu{Offset:} to \menu{-0'4"}}
+	\item Do the same, except for the Balcony. Make sure not to go through any walls
 
+	\begin{figure}
+		\includegraphics[width=\linewidth]{revitupperrailingfinal.png}
+		\caption[The Final Upper Railings]{Your final Railings should look like this. Look for the solid Black Lines.}
+		\label{fig:revupperfloorrailfinal}
+	\end{figure}
+	
+\section{Creating The Roof Eave}
+	\item Go to the view: \menu{Side Bar > Project Browser > Floor Plans > 03 Roof Level}
+	\item Using what you have learned. Edit the footprint of the roof.
+	\item using the \menu{Split} tool, extend the roof like in the Figure \ref{fig:revroofextend}
+	
+	\begin{figure}
+		\includegraphics[width=\linewidth]{revitroofextended.png}
+		\caption{Your Final Roof Footprint}
+		\label{fig:revroofextend}
+	\end{figure}
+	\item Attach your Side Wall to the Roof
 \end{enumerate}
+
+\chapter{Chapter 9 - Creating the Project Documentation}
+\label{ch:9}
 	
 		
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.8)  16 OCT 2016 15:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.8)  17 OCT 2016 10:23
 entering extended mode
 **./book_1_template.tex
 (book_1_template.tex
@@ -1897,7 +1897,7 @@ Overfull \hbox (11.59193pt too wide) in paragraph at lines 163--163
 's in-ter-face| 
  []
 
-<Images/revitmainscene.PNG, id=246, 1084.05pt x 699.11188pt>
+<Images/revitmainscene.PNG, id=352, 1084.05pt x 699.11188pt>
 File: Images/revitmainscene.PNG Graphic file (type png)
 
 <use Images/revitmainscene.PNG>
@@ -1907,7 +1907,7 @@ Package pdftex.def Info: Images/revitmainscene.PNG used on input line 167.
 
 
 ]
-<Images/revitnewfile.png, id=257, 297.11pt x 156.585pt>
+<Images/revitnewfile.png, id=363, 297.11pt x 156.585pt>
 File: Images/revitnewfile.png Graphic file (type png)
 
 <use Images/revitnewfile.png>
@@ -1917,7 +1917,7 @@ Package pdftex.def Info: Images/revitnewfile.png used on input line 173.
 
 LaTeX Warning: Marginpar on page 8 moved.
 
-<Images/revittemplateview.png, id=260, 583.68062pt x 356.83313pt>
+<Images/revittemplateview.png, id=366, 583.68062pt x 356.83313pt>
 File: Images/revittemplateview.png Graphic file (type png)
 
 <use Images/revittemplateview.png>
@@ -1931,7 +1931,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 190--193
 
 LaTeX Warning: Marginpar on page 8 moved.
 
-<Images/revitfullpageview.png, id=261, 1084.05pt x 699.61375pt>
+<Images/revitfullpageview.png, id=367, 1084.05pt x 699.61375pt>
 File: Images/revitfullpageview.png Graphic file (type png)
 
 <use Images/revitfullpageview.png>
@@ -1949,7 +1949,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 197--200
 
 [8 <./Images/revitmainscene.PNG> <./Images/revitnewfile.png>] [9 <./Images/revi
 ttemplateview.png> <./Images/revitfullpageview.png>]
-<Images/revittopbar.png, id=274, 1082.0425pt x 124.465pt>
+<Images/revittopbar.png, id=380, 1082.0425pt x 124.465pt>
 File: Images/revittopbar.png Graphic file (type png)
 
 <use Images/revittopbar.png>
@@ -1980,7 +1980,7 @@ Underfull \hbox (badness 1102) in paragraph at lines 221--221
 
 LaTeX Warning: Marginpar on page 10 moved.
 
-<Images/revitannotationbar.png, id=278, 1084.05pt x 71.26625pt>
+<Images/revitannotationbar.png, id=384, 1084.05pt x 71.26625pt>
 File: Images/revitannotationbar.png Graphic file (type png)
 
 <use Images/revitannotationbar.png>
@@ -1996,7 +1996,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 227--230
 
  []
 
-<Images/revitmassingsitebar.png, id=280, 767.36688pt x 73.27374pt>
+<Images/revitmassingsitebar.png, id=386, 767.36688pt x 73.27374pt>
 File: Images/revitmassingsitebar.png Graphic file (type png)
 
 <use Images/revitmassingsitebar.png>
@@ -2012,7 +2012,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 237--240
 
  <./Images/revittopbar.png> <./Images/revitannotationbar.png> <./Images/revitma
 ssingsitebar.png>]
-<Images/revitviewtab.png, id=289, 1072.005pt x 74.2775pt>
+<Images/revitviewtab.png, id=395, 1072.005pt x 74.2775pt>
 File: Images/revitviewtab.png Graphic file (type png)
 
 <use Images/revitviewtab.png>
@@ -2028,7 +2028,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 247--250
 
  []
 
-<Images/revitmodifytab.png, id=291, 589.70313pt x 70.76437pt>
+<Images/revitmodifytab.png, id=397, 589.70313pt x 70.76437pt>
 File: Images/revitmodifytab.png Graphic file (type png)
 
 <use Images/revitmodifytab.png>
@@ -2049,7 +2049,7 @@ LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <10> not available
 LaTeX Warning: Reference `fig:revfinhouse' on page 13 undefined on input line 2
 78.
 
-<Images/revitsidebar.png, id=302, 166.6225pt x 557.08125pt>
+<Images/revitsidebar.png, id=408, 166.6225pt x 557.08125pt>
 File: Images/revitsidebar.png Graphic file (type png)
 
 <use Images/revitsidebar.png>
@@ -2059,7 +2059,7 @@ Package pdftex.def Info: Images/revitsidebar.png used on input line 282.
 
 LaTeX Warning: Marginpar on page 13 moved.
 
-<Images/revitelevationslistview.png, id=304, 135.50626pt x 68.255pt>
+<Images/revitelevationslistview.png, id=410, 135.50626pt x 68.255pt>
 File: Images/revitelevationslistview.png Graphic file (type png)
 
 <use Images/revitelevationslistview.png>
@@ -2070,7 +2070,7 @@ Package pdftex.def Info: Images/revitelevationslistview.png used on input line
 
 LaTeX Warning: Marginpar on page 13 moved.
 
-<Images/revitelevationsclick.png, id=307, 102.88437pt x 67.25125pt>
+<Images/revitelevationsclick.png, id=413, 102.88437pt x 67.25125pt>
 File: Images/revitelevationsclick.png Graphic file (type png)
 
 <use Images/revitelevationsclick.png>
@@ -2091,7 +2091,7 @@ LaTeX Warning: Marginpar on page 14 moved.
 
 LaTeX Warning: Marginpar on page 14 moved.
 
-<Images/revitoptionsbar.png, id=325, 369.38pt x 20.57687pt>
+<Images/revitoptionsbar.png, id=431, 369.38pt x 20.57687pt>
 File: Images/revitoptionsbar.png Graphic file (type png)
 
 <use Images/revitoptionsbar.png>
@@ -2103,7 +2103,7 @@ Overfull \hbox (0.11313pt too wide) in paragraph at lines 335--336
 t. Ref-er- 
  []
 
-<Images/revitelevationlinethree.png, id=327, 266.9975pt x 127.47626pt>
+<Images/revitelevationlinethree.png, id=433, 266.9975pt x 127.47626pt>
 File: Images/revitelevationlinethree.png Graphic file (type png)
 
 <use Images/revitelevationlinethree.png>
@@ -2111,7 +2111,7 @@ Package pdftex.def Info: Images/revitelevationlinethree.png used on input line
 338.
 (pdftex.def)             Requested size: 312.03134pt x 148.97739pt.
 
-<Images/revitelevationsname.png, id=328, 86.82437pt x 196.735pt>
+<Images/revitelevationsname.png, id=434, 86.82437pt x 196.735pt>
 File: Images/revitelevationsname.png Graphic file (type png)
 
 <use Images/revitelevationsname.png>
@@ -2129,14 +2129,14 @@ LaTeX Warning: Marginpar on page 17 moved.
 
 LaTeX Warning: Marginpar on page 17 moved.
 
-<Images/revitobjecttype.png, id=347, 161.60374pt x 52.69687pt>
+<Images/revitobjecttype.png, id=453, 161.60374pt x 52.69687pt>
 File: Images/revitobjecttype.png Graphic file (type png)
 
 <use Images/revitobjecttype.png>
 Package pdftex.def Info: Images/revitobjecttype.png used on input line 386.
 (pdftex.def)             Requested size: 144.00688pt x 46.95876pt.
 
-<Images/revitfoundationwalls.png, id=348, 225.84375pt x 142.5325pt>
+<Images/revitfoundationwalls.png, id=454, 225.84375pt x 142.5325pt>
 File: Images/revitfoundationwalls.png Graphic file (type png)
 
 <use Images/revitfoundationwalls.png>
@@ -2144,7 +2144,7 @@ Package pdftex.def Info: Images/revitfoundationwalls.png used on input line 394
 .
 (pdftex.def)             Requested size: 312.04031pt x 196.9321pt.
  [17 <./Images/revitobjecttype.png>]
-<Images/revitfoundationfinal.png, id=361, 279.0425pt x 140.525pt>
+<Images/revitfoundationfinal.png, id=467, 279.0425pt x 140.525pt>
 File: Images/revitfoundationfinal.png Graphic file (type png)
 
 <use Images/revitfoundationfinal.png>
@@ -2155,7 +2155,7 @@ Package pdftex.def Info: Images/revitfoundationfinal.png used on input line 428
 [19 <./Images/revitfoundationfinal.png>] [20
 
 ]
-<Images/revittopographicinitial.png, id=386, 218.31563pt x 142.5325pt>
+<Images/revittopographicinitial.png, id=492, 218.31563pt x 142.5325pt>
 File: Images/revittopographicinitial.png Graphic file (type png)
 
 <use Images/revittopographicinitial.png>
@@ -2163,7 +2163,7 @@ Package pdftex.def Info: Images/revittopographicinitial.png used on input line
 445.
 (pdftex.def)             Requested size: 312.00241pt x 203.6981pt.
 
-<Images/revittopographictwo.png, id=388, 219.82124pt x 155.07938pt>
+<Images/revittopographictwo.png, id=494, 219.82124pt x 155.07938pt>
 File: Images/revittopographictwo.png Graphic file (type png)
 
 <use Images/revittopographictwo.png>
@@ -2171,7 +2171,7 @@ Package pdftex.def Info: Images/revittopographictwo.png used on input line 453.
 
 (pdftex.def)             Requested size: 312.0108pt x 220.1172pt.
 
-<Images/revittopographicthree.png, id=390, 254.45062pt x 149.55875pt>
+<Images/revittopographicthree.png, id=496, 254.45062pt x 149.55875pt>
 File: Images/revittopographicthree.png Graphic file (type png)
 
 <use Images/revittopographicthree.png>
@@ -2183,7 +2183,7 @@ png> <./Images/revittopographicthree.png>]
 
 LaTeX Warning: Marginpar on page 23 moved.
 
-<Images/revittopographicpad.png, id=408, 367.3725pt x 149.8097pt>
+<Images/revittopographicpad.png, id=514, 367.3725pt x 149.8097pt>
 File: Images/revittopographicpad.png Graphic file (type png)
 
 <use Images/revittopographicpad.png>
@@ -2191,7 +2191,7 @@ Package pdftex.def Info: Images/revittopographicpad.png used on input line 473.
 
 (pdftex.def)             Requested size: 312.02142pt x 127.23824pt.
 
-<Images/revitthreedviewcube.png, id=409, 164.11313pt x 120.45pt>
+<Images/revitthreedviewcube.png, id=515, 164.11313pt x 120.45pt>
 File: Images/revitthreedviewcube.png Graphic file (type png)
 
 <use Images/revitthreedviewcube.png>
@@ -2199,7 +2199,7 @@ Package pdftex.def Info: Images/revitthreedviewcube.png used on input line 481.
 
 (pdftex.def)             Requested size: 144.00179pt x 105.68938pt.
 
-<Images/revitthreedtopographic.png, id=411, 1154.81438pt x 773.13844pt>
+<Images/revitthreedtopographic.png, id=517, 1154.81438pt x 773.13844pt>
 File: Images/revitthreedtopographic.png Graphic file (type png)
 
 <use Images/revitthreedtopographic.png>
@@ -2234,7 +2234,7 @@ Overfull \hbox (6.08817pt too wide) in paragraph at lines 502--503
 
 LaTeX Warning: Marginpar on page 25 moved.
 
-<Images/revitentrylevelwalls.png, id=426, 572.1375pt x 294.34969pt>
+<Images/revitentrylevelwalls.png, id=532, 572.1375pt x 294.34969pt>
 File: Images/revitentrylevelwalls.png Graphic file (type png)
 
 <use Images/revitentrylevelwalls.png>
@@ -2248,7 +2248,7 @@ Overfull \hbox (0.89134pt too wide) in paragraph at lines 527--528
 
 [25
 
-] <Images/revitlowerlevelwalls.png, id=439, 235.63031pt x 380.92313pt>
+] <Images/revitlowerlevelwalls.png, id=545, 235.63031pt x 380.92313pt>
 File: Images/revitlowerlevelwalls.png Graphic file (type png)
 
 <use Images/revitlowerlevelwalls.png>
@@ -2260,7 +2260,7 @@ Package pdftex.def Info: Images/revitlowerlevelwalls.png used on input line 543
 LaTeX Warning: Marginpar on page 26 moved.
 
 [26 <./Images/revitentrylevelwalls.png> <./Images/revitlowerlevelwalls.png>]
-<Images/revitthreedouterwalls.png, id=446, 1061.46562pt x 324.46219pt>
+<Images/revitthreedouterwalls.png, id=552, 1061.46562pt x 324.46219pt>
 File: Images/revitthreedouterwalls.png Graphic file (type png)
 
 <use Images/revitthreedouterwalls.png>
@@ -2272,7 +2272,7 @@ Overfull \hbox (6.30246pt too wide) in paragraph at lines 559--560
 []\T1/pplj/m/n/10 (-20) Go to the fol-low-ing view: []  []  []  []  
  []
 
-<Images/revitroofintersect.png, id=447, 74.52844pt x 40.65187pt>
+<Images/revitroofintersect.png, id=553, 74.52844pt x 40.65187pt>
 File: Images/revitroofintersect.png Graphic file (type png)
 
 <use Images/revitroofintersect.png>
@@ -2290,14 +2290,14 @@ Overfull \hbox (0.13693pt too wide) in paragraph at lines 594--595
  the fin-ished prod-uct 
  []
 
-<Images/revitrooflines.PNG, id=462, 473.77pt x 195.22937pt>
+<Images/revitrooflines.PNG, id=568, 473.77pt x 195.22937pt>
 File: Images/revitrooflines.PNG Graphic file (type png)
 
 <use Images/revitrooflines.PNG>
 Package pdftex.def Info: Images/revitrooflines.PNG used on input line 597.
 (pdftex.def)             Requested size: 312.00963pt x 128.57175pt.
 
-<Images/revitfloortool.png, id=463, 178.6675pt x 55.70813pt>
+<Images/revitfloortool.png, id=569, 178.6675pt x 55.70813pt>
 File: Images/revitfloortool.png Graphic file (type png)
 
 <use Images/revitfloortool.png>
@@ -2308,7 +2308,7 @@ Package pdftex.def Info: Images/revitfloortool.png used on input line 609.
 LaTeX Warning: Reference `01 Lower Level' on page 29 undefined on input line 61
 6.
 
-<Images/revitlowerlevelfloor.png, id=480, 848.16875pt x 484.30937pt>
+<Images/revitlowerlevelfloor.png, id=586, 848.16875pt x 484.30937pt>
 File: Images/revitlowerlevelfloor.png Graphic file (type png)
 
 <use Images/revitlowerlevelfloor.png>
@@ -2323,7 +2323,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 619--622
 
 LaTeX Warning: Marginpar on page 29 moved.
 
-<Images/revitupperfloortool.png, id=481, 177.66376pt x 54.70438pt>
+<Images/revitupperfloortool.png, id=587, 177.66376pt x 54.70438pt>
 File: Images/revitupperfloortool.png Graphic file (type png)
 
 <use Images/revitupperfloortool.png>
@@ -2331,7 +2331,7 @@ Package pdftex.def Info: Images/revitupperfloortool.png used on input line 630.
 
 (pdftex.def)             Requested size: 144.00444pt x 44.34033pt.
 
-<Images/revitupperlevelfloors.png, id=482, 518.6878pt x 331.2375pt>
+<Images/revitupperlevelfloors.png, id=588, 518.6878pt x 331.2375pt>
 File: Images/revitupperlevelfloors.png Graphic file (type png)
 
 <use Images/revitupperlevelfloors.png>
@@ -2342,7 +2342,7 @@ Package pdftex.def Info: Images/revitupperlevelfloors.png used on input line 64
 
 LaTeX Warning: Marginpar on page 30 moved.
 
-<Images/revit3dfloorcontext.png, id=501, 201.75375pt x 352.31625pt>
+<Images/revit3dfloorcontext.png, id=607, 201.75375pt x 352.31625pt>
 File: Images/revit3dfloorcontext.png Graphic file (type png)
 
 <use Images/revit3dfloorcontext.png>
@@ -2353,7 +2353,7 @@ Package pdftex.def Info: Images/revit3dfloorcontext.png used on input line 656.
 
 LaTeX Warning: Marginpar on page 30 moved.
 
-<Images/revit3dfloorview.png, id=502, 795.97375pt x 411.5375pt>
+<Images/revit3dfloorview.png, id=608, 795.97375pt x 411.5375pt>
 File: Images/revit3dfloorview.png Graphic file (type png)
 
 <use Images/revit3dfloorview.png>
@@ -2368,14 +2368,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 664--668
 [31 <./Images/revit3dfloorview.png>] [32
 
 ]
-<Images/revitwalldistance.png, id=524, 184.69pt x 117.43875pt>
+<Images/revitwalldistance.png, id=630, 184.69pt x 117.43875pt>
 File: Images/revitwalldistance.png Graphic file (type png)
 
 <use Images/revitwalldistance.png>
 Package pdftex.def Info: Images/revitwalldistance.png used on input line 694.
 (pdftex.def)             Requested size: 144.00124pt x 91.566pt.
 
-<Images/revitlowerlevelwallsfinal.png, id=527, 545.03625pt x 316.68312pt>
+<Images/revitlowerlevelwallsfinal.png, id=633, 545.03625pt x 316.68312pt>
 File: Images/revitlowerlevelwallsfinal.png Graphic file (type png)
 
 <use Images/revitlowerlevelwallsfinal.png>
@@ -2394,7 +2394,7 @@ this. All of this can be
  []
 
 [33 <./Images/revitwalldistance.png>]
-<Images/revitlowerlevelwallstools.png, id=537, 175.15437pt x 54.70438pt>
+<Images/revitlowerlevelwallstools.png, id=643, 175.15437pt x 54.70438pt>
 File: Images/revitlowerlevelwallstools.png Graphic file (type png)
 
 <use Images/revitlowerlevelwallstools.png>
@@ -2405,7 +2405,7 @@ e 710.
 
 LaTeX Warning: Marginpar on page 34 moved.
 
-<Images/revitlowerlevelwallshallway.PNG, id=539, 379.91937pt x 327.72438pt>
+<Images/revitlowerlevelwallshallway.PNG, id=645, 379.91937pt x 327.72438pt>
 File: Images/revitlowerlevelwallshallway.PNG Graphic file (type png)
 
 <use Images/revitlowerlevelwallshallway.PNG>
@@ -2416,7 +2416,7 @@ ine 717.
 
 LaTeX Warning: Marginpar on page 34 moved.
 
-<Images/revitupperfloorsfinal.PNG, id=541, 469.25313pt x 250.43562pt>
+<Images/revitupperfloorsfinal.PNG, id=647, 469.25313pt x 250.43562pt>
 File: Images/revitupperfloorsfinal.PNG Graphic file (type png)
 
 <use Images/revitupperfloorsfinal.PNG>
@@ -2432,7 +2432,368 @@ Underfull \hbox (badness 10000) in paragraph at lines 741--745
 s.png>] [35 <./Images/revitlowerlevelwallshallway.PNG> <./Images/revitupperfloo
 rsfinal.PNG>] [36
 
-] [37] [38
+]
+
+LaTeX Warning: Marginpar on page 37 moved.
+
+
+LaTeX Warning: Marginpar on page 37 moved.
+
+
+LaTeX Warning: Marginpar on page 37 moved.
+
+<Images/revitlowerexteriordoor.png, id=667, 115.93312pt x 101.62968pt>
+File: Images/revitlowerexteriordoor.png Graphic file (type png)
+
+<use Images/revitlowerexteriordoor.png>
+Package pdftex.def Info: Images/revitlowerexteriordoor.png used on input line 7
+67.
+(pdftex.def)             Requested size: 144.01207pt x 126.24434pt.
+ [37 <./Images/revitlowerexteriordoor.png>] <Images/revitupperlevelexteriordoor
+.png, id=681, 88.07906pt x 87.32625pt>
+File: Images/revitupperlevelexteriordoor.png Graphic file (type png)
+
+<use Images/revitupperlevelexteriordoor.png>
+Package pdftex.def Info: Images/revitupperlevelexteriordoor.png used on input l
+ine 783.
+(pdftex.def)             Requested size: 144.00032pt x 142.76958pt.
+
+<Images/revitupperouterbalconydoor.png, id=683, 164.86594pt x 46.67438pt>
+File: Images/revitupperouterbalconydoor.png Graphic file (type png)
+
+<use Images/revitupperouterbalconydoor.png>
+Package pdftex.def Info: Images/revitupperouterbalconydoor.png used on input li
+ne 791.
+(pdftex.def)             Requested size: 144.00323pt x 40.76802pt.
+
+
+LaTeX Warning: Marginpar on page 38 moved.
+
+
+Overfull \hbox (33.15512pt too wide) in paragraph at lines 809--810
+[]\T1/pplj/m/n/10 (-20) On the left side of that wall is the ad-ja-cent wall wh
+ich the [] 
+ []
+
+<Images/revitupperinteriordoors.png, id=686, 517.18219pt x 268.75406pt>
+File: Images/revitupperinteriordoors.png Graphic file (type png)
+
+<use Images/revitupperinteriordoors.png>
+Package pdftex.def Info: Images/revitupperinteriordoors.png used on input line 
+813.
+(pdftex.def)             Requested size: 312.00839pt x 162.13536pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 813--816
+
+ []
+
+[38 <./Images/revitupperlevelexteriordoor.png> <./Images/revitupperouterbalcony
+door.png>]
+
+LaTeX Warning: Marginpar on page 39 moved.
+
+<Images/revitlowerlevelinteriorwalls.png, id=703, 468.24937pt x 251.43938pt>
+File: Images/revitlowerlevelinteriorwalls.png Graphic file (type png)
+
+<use Images/revitlowerlevelinteriorwalls.png>
+Package pdftex.def Info: Images/revitlowerlevelinteriorwalls.png used on input 
+line 830.
+(pdftex.def)             Requested size: 312.0178pt x 167.54654pt.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <8> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 832.
+LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
+(Font)              scaled to size 7.19995pt on input line 832.
+
+Underfull \hbox (badness 10000) in paragraph at lines 830--834
+\T1/pplj/m/it/10 (+20) In this case, your doors do not have to look ex-actly li
+ke mine, al-though the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 830--834
+\T1/pplj/m/it/10 (+20) ori-en-ta-tion has to be cor-rect. Look at the list-ing 
+and see how the ex-te-rior
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 830--834
+\T1/pplj/m/it/10 (+20) and in-te-rior fac-ing co-in-cides with the pic-ture. Th
+e le-niency you have is, for
+ []
+
+[39 <./Images/revitupperinteriordoors.png>]
+<Images/revitsouthernwindows.png, id=716, 388.45125pt x 161.85469pt>
+File: Images/revitsouthernwindows.png Graphic file (type png)
+
+<use Images/revitsouthernwindows.png>
+Package pdftex.def Info: Images/revitsouthernwindows.png used on input line 852
+.
+(pdftex.def)             Requested size: 312.00613pt x 130.00255pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 852--855
+
+ []
+
+[40 <./Images/revitlowerlevelinteriorwalls.png> <./Images/revitsouthernwindows.
+png>] <Images/revitlowerwindowfinal.png, id=728, 234.8775pt x 91.84312pt>
+File: Images/revitlowerwindowfinal.png Graphic file (type png)
+
+<use Images/revitlowerwindowfinal.png>
+Package pdftex.def Info: Images/revitlowerwindowfinal.png used on input line 86
+3.
+(pdftex.def)             Requested size: 311.99966pt x 121.99983pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 863--867
+[][]
+ []
+
+<Images/revitupperwindowinitial.png, id=729, 402.00188pt x 285.31593pt>
+File: Images/revitupperwindowinitial.png Graphic file (type png)
+
+<use Images/revitupperwindowinitial.png>
+Package pdftex.def Info: Images/revitupperwindowinitial.png used on input line 
+874.
+(pdftex.def)             Requested size: 143.99673pt x 102.19994pt.
+
+<Images/revitupperwindowaligned.png, id=732, 351.56343pt x 407.27156pt>
+File: Images/revitupperwindowaligned.png Graphic file (type png)
+
+<use Images/revitupperwindowaligned.png>
+Package pdftex.def Info: Images/revitupperwindowaligned.png used on input line 
+885.
+(pdftex.def)             Requested size: 143.99709pt x 166.81462pt.
+
+
+LaTeX Warning: Marginpar on page 41 moved.
+
+<Images/revitupperwindowfinal.png, id=734, 365.86688pt x 182.93344pt>
+File: Images/revitupperwindowfinal.png Graphic file (type png)
+
+<use Images/revitupperwindowfinal.png>
+Package pdftex.def Info: Images/revitupperwindowfinal.png used on input line 89
+5.
+(pdftex.def)             Requested size: 312.01552pt x 156.00775pt.
+ [41
+
+ <./Images/revitlowerwindowfinal.png> <./Images/revitupperwindowinitial.png> <.
+/Images/revitupperwindowaligned.png>] [42 <./Images/revitupperwindowfinal.png>]
+
+<Images/revitcurtainwallinit.png, id=753, 428.35031pt x 395.22656pt>
+File: Images/revitcurtainwallinit.png Graphic file (type png)
+
+<use Images/revitcurtainwallinit.png>
+Package pdftex.def Info: Images/revitcurtainwallinit.png used on input line 912
+.
+(pdftex.def)             Requested size: 143.99661pt x 132.86154pt.
+
+<Images/revitcurtainwallfinal.PNG, id=755, 372.64218pt x 227.34938pt>
+File: Images/revitcurtainwallfinal.PNG Graphic file (type png)
+
+<use Images/revitcurtainwallfinal.PNG>
+Package pdftex.def Info: Images/revitcurtainwallfinal.PNG used on input line 93
+2.
+(pdftex.def)             Requested size: 312.01086pt x 190.35814pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 932--935
+
+ []
+
+[43
+
+ <./Images/revitcurtainwallinit.png>]
+
+LaTeX Warning: Marginpar on page 44 moved.
+
+<Images/revitcurtainwall3dviewfinal.png, id=767, 1189.44376pt x 549.55313pt>
+File: Images/revitcurtainwall3dviewfinal.png Graphic file (type png)
+
+<use Images/revitcurtainwall3dviewfinal.png>
+Package pdftex.def Info: Images/revitcurtainwall3dviewfinal.png used on input l
+ine 957.
+(pdftex.def)             Requested size: 479.9979pt x 221.77118pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 957--961
+[][]
+ []
+
+
+LaTeX Warning: Reference `fig:revattachinit' on page 44 undefined on input line
+ 966.
+
+<Images/revitattachmentwallsinitial.png, id=768, 1198.4775pt x 551.05875pt>
+File: Images/revitattachmentwallsinitial.png Graphic file (type png)
+
+<use Images/revitattachmentwallsinitial.png>
+Package pdftex.def Info: Images/revitattachmentwallsinitial.png used on input l
+ine 969.
+(pdftex.def)             Requested size: 311.99911pt x 143.45688pt.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 971.
+LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
+(Font)              scaled to size 8.99994pt on input line 971.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <7> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 971.
+LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
+(Font)              scaled to size 6.29996pt on input line 971.
+
+Underfull \hbox (badness 10000) in paragraph at lines 969--972
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 969--972
+\T1/pplj/m/it/10 (+20) No-tice! Use the gap be-tween the walls and the roof to 
+se-lect the in-te-rior
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 969--972
+\T1/pplj/m/it/10 (+20) walls as well. If you click else-where and your se-lec-t
+ion dis-ap-pears, right
+ []
+
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 4.49997pt on input line 972.
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 4.99995pt on input line 972.
+[44 <./Images/revitcurtainwallfinal.PNG>] [45 <./Images/revitcurtainwall3dviewf
+inal.png> <./Images/revitattachmentwallsinitial.png>]
+<Images/revitattachfinal.png, id=787, 1222.5675pt x 456.20438pt>
+File: Images/revitattachfinal.png Graphic file (type png)
+
+<use Images/revitattachfinal.png>
+Package pdftex.def Info: Images/revitattachfinal.png used on input line 979.
+(pdftex.def)             Requested size: 479.98938pt x 179.10933pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 979--982
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 979--982
+\T1/pplj/m/it/10 (+20) Note that the side door is miss-ing in these past 3D vi-
+su-al-iza-tions, this is to keep the fo-cus on the walls, and not the
+ []
+
+<Images/revitsideentrydeckinit.png, id=789, 875.52094pt x 275.52937pt>
+File: Images/revitsideentrydeckinit.png Graphic file (type png)
+
+<use Images/revitsideentrydeckinit.png>
+Package pdftex.def Info: Images/revitsideentrydeckinit.png used on input line 9
+93.
+(pdftex.def)             Requested size: 311.99442pt x 98.18567pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 993--997
+[][]
+ []
+
+[46 <./Images/revitattachfinal.png>]
+<Images/revitentrywalkwalls.png, id=803, 280.04625pt x 91.84312pt>
+File: Images/revitentrywalkwalls.png Graphic file (type png)
+
+<use Images/revitentrywalkwalls.png>
+Package pdftex.def Info: Images/revitentrywalkwalls.png used on input line 1016
+.
+(pdftex.def)             Requested size: 312.01302pt x 102.32683pt.
+
+<Images/revitentrydeckretracted.png, id=804, 486.31688pt x 277.78781pt>
+File: Images/revitentrydeckretracted.png Graphic file (type png)
+
+<use Images/revitentrydeckretracted.png>
+Package pdftex.def Info: Images/revitentrydeckretracted.png used on input line 
+1028.
+(pdftex.def)             Requested size: 311.99864pt x 178.21593pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1028--1032
+[][]
+ []
+
+[47 <./Images/revitsideentrydeckinit.png> <./Images/revitentrywalkwalls.png>]
+<Images/revitentrydeckslopeinit.png, id=816, 173.14688pt x 82.05656pt>
+File: Images/revitentrydeckslopeinit.png Graphic file (type png)
+
+<use Images/revitentrydeckslopeinit.png>
+Package pdftex.def Info: Images/revitentrydeckslopeinit.png used on input line 
+1039.
+(pdftex.def)             Requested size: 144.00249pt x 68.24464pt.
+
+<Images/revitentrydeckfinal.png, id=817, 334.24875pt x 327.47343pt>
+File: Images/revitentrydeckfinal.png Graphic file (type png)
+
+<use Images/revitentrydeckfinal.png>
+Package pdftex.def Info: Images/revitentrydeckfinal.png used on input line 1056
+.
+(pdftex.def)             Requested size: 144.00467pt x 141.08566pt.
+ [48 <./Images/revitentrydeckretracted.png> <./Images/revitentrydeckslopeinit.p
+ng> <./Images/revitentrydeckfinal.png>]
+<Images/revitstairsinit.PNG, id=831, 334.24875pt x 136.25906pt>
+File: Images/revitstairsinit.PNG Graphic file (type png)
+
+<use Images/revitstairsinit.PNG>
+Package pdftex.def Info: Images/revitstairsinit.PNG used on input line 1074.
+(pdftex.def)             Requested size: 312.02626pt x 127.19987pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1074--1077
+
+ []
+
+<Images/revitstairspace.png, id=833, 317.68687pt x 192.72pt>
+File: Images/revitstairspace.png Graphic file (type png)
+
+<use Images/revitstairspace.png>
+Package pdftex.def Info: Images/revitstairspace.png used on input line 1083.
+(pdftex.def)             Requested size: 144.00482pt x 87.35837pt.
+
+<Images/revitstairraillings.png, id=835, 374.14781pt x 412.54124pt>
+File: Images/revitstairraillings.png Graphic file (type png)
+
+<use Images/revitstairraillings.png>
+Package pdftex.def Info: Images/revitstairraillings.png used on input line 1092
+.
+(pdftex.def)             Requested size: 312.01552pt x 344.03322pt.
+ [49
+
+ <./Images/revitstairsinit.PNG> <./Images/revitstairspace.png>]
+<Images/revitupperentryrail.png, id=849, 137.51375pt x 62.2325pt>
+File: Images/revitupperentryrail.png Graphic file (type png)
+
+<use Images/revitupperentryrail.png>
+Package pdftex.def Info: Images/revitupperentryrail.png used on input line 1104
+.
+(pdftex.def)             Requested size: 144.0139pt x 65.17416pt.
+
+
+LaTeX Warning: Reference `fig:revmainupperfloorrail' on page 50 undefined on in
+put line 1120.
+
+[50 <./Images/revitstairraillings.png> <./Images/revitupperentryrail.png>]
+<Images/revitupperrailingfinal.png, id=862, 338.26375pt x 190.7125pt>
+File: Images/revitupperrailingfinal.png Graphic file (type png)
+
+<use Images/revitupperrailingfinal.png>
+Package pdftex.def Info: Images/revitupperrailingfinal.png used on input line 1
+124.
+(pdftex.def)             Requested size: 312.0116pt x 175.91158pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1124--1127
+
+ []
+
+<Images/revitroofextended.png, id=864, 336.75812pt x 194.7275pt>
+File: Images/revitroofextended.png Graphic file (type png)
+
+<use Images/revitroofextended.png>
+Package pdftex.def Info: Images/revitroofextended.png used on input line 1135.
+(pdftex.def)             Requested size: 312.0051pt x 180.41426pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1135--1138
+
+ []
+
+[51 <./Images/revitupperrailingfinal.png>] [52 <./Images/revitroofextended.png>
+] [53
+
+] [54
 
 ] (book_1_template.bblpdfTeX warning (ext4): destination with the same identifi
 er (name{cite.guide2006}) has been already used, duplicate ignored
@@ -2447,7 +2808,7 @@ ored
 l.13 \bibitem[Autodesk(2016)]{revit2016}
                                         )
 No file book_1_template.ind.
-[39
+[55
 
 ]
 
@@ -2456,38 +2817,39 @@ Package catoptions Warning: Undefined options
 (catoptions)                inputenc.sty,utf8,. 
 (catoptions)                Default action already taken in each case .
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 774.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 774.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1164.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1164.
 (book_1_template.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 774.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 774.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1164.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1164.
+
 Package rerunfilecheck Info: File `book_1_template.out' has not changed.
-(rerunfilecheck)             Checksum: C878D71B708BDC2B249127C7118E5451;5028.
+(rerunfilecheck)             Checksum: 29F4AFA323DC3836E81C899BF34082E1;7500.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 774.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1164.
  ) 
 Here is how much of TeX's memory you used:
- 35862 strings out of 493334
- 643046 string characters out of 3136652
- 903725 words of memory out of 3000000
- 38260 multiletter control sequences out of 15000+200000
- 120037 words of font info for 336 fonts, out of 3000000 for 9000
+ 36243 strings out of 493334
+ 650410 string characters out of 3136652
+ 905117 words of memory out of 3000000
+ 38435 multiletter control sequences out of 15000+200000
+ 136144 words of font info for 380 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,13n,84p,10393b,1272s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 55i,13n,84p,10393b,1282s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/public/fpl/fplrc8a.pfb><C:/Program Files (
 x86)/MiKTeX 2.9/fonts/type1/public/fpl/fplrij8a.pfb><C:/Program Files (x86)/MiK
 TeX 2.9/fonts/type1/bera/fvmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
 pe1/urw/helvetic/uhvr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/
-palatino/uplb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/palatino
-/uplr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a
-.pfb>
-Output written on book_1_template.pdf (39 pages, 1248012 bytes).
+helvetic/uhvro8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/palatin
+o/uplb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a
+.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on book_1_template.pdf (55 pages, 1569365 bytes).
 PDF statistics:
- 640 PDF objects out of 1000 (max. 8388607)
- 170 named destinations out of 1000 (max. 500000)
- 81909 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 986 PDF objects out of 1000 (max. 8388607)
+ 297 named destinations out of 1000 (max. 500000)
+ 89815 words of extra memory for PDF output out of 106986 (max. 10000000)
 

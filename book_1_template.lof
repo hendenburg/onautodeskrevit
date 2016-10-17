@@ -1,78 +1,83 @@
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1}{\ignorespaces The revit start page}}{8}{section*.6}
-\contentsline {figure}{\numberline {2}{\ignorespaces A revit New file popup}}{8}{section*.6}
-\contentsline {figure}{\numberline {3}{\ignorespaces A template file list}}{9}{section*.6}
-\contentsline {figure}{\numberline {4}{\ignorespaces A revit default workspace}}{9}{section*.6}
-\contentsline {figure}{\numberline {5}{\ignorespaces The revit top bar}}{10}{section*.7}
-\contentsline {figure}{\numberline {6}{\ignorespaces The annotation bar}}{10}{section*.7}
-\contentsline {figure}{\numberline {7}{\ignorespaces The massing and site bar}}{10}{section*.7}
-\contentsline {figure}{\numberline {8}{\ignorespaces The view bar}}{11}{section*.7}
-\contentsline {figure}{\numberline {9}{\ignorespaces The modify bar}}{11}{section*.7}
+\contentsline {figure}{\numberline {1}{\ignorespaces The revit start page}}{10}{section*.6}
+\contentsline {figure}{\numberline {2}{\ignorespaces A revit New file popup}}{10}{section*.6}
+\contentsline {figure}{\numberline {3}{\ignorespaces A template file list}}{11}{section*.6}
+\contentsline {figure}{\numberline {4}{\ignorespaces A revit default workspace}}{11}{section*.6}
+\contentsline {figure}{\numberline {5}{\ignorespaces The revit top bar}}{12}{section*.7}
+\contentsline {figure}{\numberline {6}{\ignorespaces The annotation bar}}{12}{section*.7}
+\contentsline {figure}{\numberline {7}{\ignorespaces The massing and site bar}}{12}{section*.7}
+\contentsline {figure}{\numberline {8}{\ignorespaces The view bar}}{13}{section*.7}
+\contentsline {figure}{\numberline {9}{\ignorespaces The modify bar}}{13}{section*.7}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {10}{\ignorespaces The revit side bar}}{13}{chapter*.8}
-\contentsline {figure}{\numberline {11}{\ignorespaces The revit elevations list}}{13}{section*.9}
-\contentsline {figure}{\numberline {12}{\ignorespaces Clicked elevation lines}}{13}{Item.3}
-\contentsline {figure}{\numberline {13}{\ignorespaces The revit options bar}}{14}{Item.10}
-\contentsline {figure}{\numberline {14}{\ignorespaces Shortened elevation lines}}{14}{Item.11}
-\contentsline {figure}{\numberline {15}{\ignorespaces The names of elevation lines}}{14}{Item.11}
+\contentsline {figure}{\numberline {10}{\ignorespaces The revit side bar}}{15}{chapter*.8}
+\contentsline {figure}{\numberline {11}{\ignorespaces The revit elevations list}}{15}{section*.9}
+\contentsline {figure}{\numberline {12}{\ignorespaces Clicked elevation lines}}{15}{Item.3}
+\contentsline {figure}{\numberline {13}{\ignorespaces The revit options bar}}{16}{Item.10}
+\contentsline {figure}{\numberline {14}{\ignorespaces Shortened elevation lines}}{16}{Item.11}
+\contentsline {figure}{\numberline {15}{\ignorespaces The names of elevation lines}}{16}{Item.11}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {16}{\ignorespaces Revit object types}}{17}{Item.18}
-\contentsline {figure}{\numberline {17}{\ignorespaces The foundation walls}}{18}{Item.20}
-\contentsline {figure}{\numberline {18}{\ignorespaces Revit foundation and retaining walls}}{19}{Item.30}
+\contentsline {figure}{\numberline {16}{\ignorespaces Revit object types}}{19}{Item.18}
+\contentsline {figure}{\numberline {17}{\ignorespaces The foundation walls}}{20}{Item.20}
+\contentsline {figure}{\numberline {18}{\ignorespaces Revit foundation and retaining walls}}{21}{Item.30}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {19}{\ignorespaces Initial topographic points}}{21}{Item.34}
-\contentsline {figure}{\numberline {20}{\ignorespaces Second set of topographic points}}{22}{Item.36}
-\contentsline {figure}{\numberline {21}{\ignorespaces Third topographic points}}{22}{Item.38}
-\contentsline {figure}{\numberline {22}{\ignorespaces Building Pad Lines}}{23}{Item.41}
-\contentsline {figure}{\numberline {23}{\ignorespaces Revit 3D Maneuvering Square}}{23}{Item.42}
-\contentsline {figure}{\numberline {24}{\ignorespaces Revit 3D view after Topographic Creation}}{24}{Item.43}
+\contentsline {figure}{\numberline {19}{\ignorespaces Initial topographic points}}{23}{Item.34}
+\contentsline {figure}{\numberline {20}{\ignorespaces Second set of topographic points}}{24}{Item.36}
+\contentsline {figure}{\numberline {21}{\ignorespaces Third topographic points}}{24}{Item.38}
+\contentsline {figure}{\numberline {22}{\ignorespaces Building Pad Lines}}{25}{Item.41}
+\contentsline {figure}{\numberline {23}{\ignorespaces Revit 3D Maneuvering Square}}{25}{Item.42}
+\contentsline {figure}{\numberline {24}{\ignorespaces Revit 3D view after Topographic Creation}}{26}{Item.43}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {25}{\ignorespaces Entry level walls}}{26}{Item.46}
-\contentsline {figure}{\numberline {26}{\ignorespaces Lower Level Walls}}{26}{Item.49}
-\contentsline {figure}{\numberline {27}{\ignorespaces Exterior walls 3D view}}{27}{Item.49}
-\contentsline {figure}{\numberline {28}{\ignorespaces Revit Roof Intersection}}{27}{Item.55}
-\contentsline {figure}{\numberline {29}{\ignorespaces Finished Roof Lines}}{28}{Item.62}
-\contentsline {figure}{\numberline {30}{\ignorespaces Revit Pick Walls Tool}}{28}{Item.64}
-\contentsline {figure}{\numberline {31}{\ignorespaces Lower level floors}}{29}{Item.66}
-\contentsline {figure}{\numberline {32}{\ignorespaces Entry Level Floor Tools}}{29}{Item.69}
-\contentsline {figure}{\numberline {33}{\ignorespaces Entry Level final floors}}{30}{Item.78}
-\contentsline {figure}{\numberline {34}{\ignorespaces 3D wall context menu}}{30}{subsection*.28}
-\contentsline {figure}{\numberline {35}{\ignorespaces The final 3d floor view}}{31}{Item.82}
+\contentsline {figure}{\numberline {25}{\ignorespaces Entry level walls}}{28}{Item.46}
+\contentsline {figure}{\numberline {26}{\ignorespaces Lower Level Walls}}{28}{Item.49}
+\contentsline {figure}{\numberline {27}{\ignorespaces Exterior walls 3D view}}{29}{Item.49}
+\contentsline {figure}{\numberline {28}{\ignorespaces Revit Roof Intersection}}{29}{Item.55}
+\contentsline {figure}{\numberline {29}{\ignorespaces Finished Roof Lines}}{30}{Item.62}
+\contentsline {figure}{\numberline {30}{\ignorespaces Revit Pick Walls Tool}}{30}{Item.64}
+\contentsline {figure}{\numberline {31}{\ignorespaces Lower level floors}}{31}{Item.66}
+\contentsline {figure}{\numberline {32}{\ignorespaces Entry Level Floor Tools}}{31}{Item.69}
+\contentsline {figure}{\numberline {33}{\ignorespaces Entry Level final floors}}{32}{Item.78}
+\contentsline {figure}{\numberline {34}{\ignorespaces 3D wall context menu}}{32}{subsection*.28}
+\contentsline {figure}{\numberline {35}{\ignorespaces The final 3d floor view}}{33}{Item.82}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {36}{\ignorespaces Wall distance guide}}{33}{Item.86}
-\contentsline {figure}{\numberline {37}{\ignorespaces The lower level walls guide}}{34}{Item.89}
-\contentsline {figure}{\numberline {38}{\ignorespaces The split tool selected}}{34}{Item.89}
-\contentsline {figure}{\numberline {39}{\ignorespaces A completed hallway}}{35}{Item.91}
-\contentsline {figure}{\numberline {40}{\ignorespaces Entry Level interior walls}}{35}{Item.93}
+\contentsline {figure}{\numberline {36}{\ignorespaces Wall distance guide}}{35}{Item.86}
+\contentsline {figure}{\numberline {37}{\ignorespaces The lower level walls guide}}{36}{Item.89}
+\contentsline {figure}{\numberline {38}{\ignorespaces The split tool selected}}{36}{Item.89}
+\contentsline {figure}{\numberline {39}{\ignorespaces A completed hallway}}{37}{Item.91}
+\contentsline {figure}{\numberline {40}{\ignorespaces Entry Level interior walls}}{37}{Item.93}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {41}{\ignorespaces The Revit Lower Level Exterior Door}}{37}{Item.100}
-\contentsline {figure}{\numberline {42}{\ignorespaces Entry Level Exterior Door}}{38}{Item.102}
-\contentsline {figure}{\numberline {43}{\ignorespaces The Balcony Door}}{38}{Item.104}
-\contentsline {figure}{\numberline {44}{\ignorespaces Upper Interior Doors}}{39}{Item.111}
-\contentsline {figure}{\numberline {45}{\ignorespaces Lower Level Interior Walls}}{40}{Item.114}
-\contentsline {figure}{\numberline {46}{\ignorespaces The Location of the Retaining Windows}}{40}{Item.118}
-\contentsline {figure}{\numberline {47}{\ignorespaces The Final Lower Level Windows}}{41}{Item.121}
-\contentsline {figure}{\numberline {48}{\ignorespaces The initial Entry Level Windows}}{41}{Item.123}
-\contentsline {figure}{\numberline {49}{\ignorespaces The Upper Windows Aligned}}{41}{Item.126}
-\contentsline {figure}{\numberline {50}{\ignorespaces Final Upper Window Arrangements}}{42}{Item.128}
+\contentsline {figure}{\numberline {41}{\ignorespaces The Revit Lower Level Exterior Door}}{39}{Item.100}
+\contentsline {figure}{\numberline {42}{\ignorespaces Entry Level Exterior Door}}{40}{Item.102}
+\contentsline {figure}{\numberline {43}{\ignorespaces The Balcony Door}}{40}{Item.104}
+\contentsline {figure}{\numberline {44}{\ignorespaces Upper Interior Doors}}{41}{Item.111}
+\contentsline {figure}{\numberline {45}{\ignorespaces Lower Level Interior Walls}}{42}{Item.114}
+\contentsline {figure}{\numberline {46}{\ignorespaces The Location of the Retaining Windows}}{42}{Item.118}
+\contentsline {figure}{\numberline {47}{\ignorespaces The Final Lower Level Windows}}{43}{Item.121}
+\contentsline {figure}{\numberline {48}{\ignorespaces The initial Entry Level Windows}}{43}{Item.123}
+\contentsline {figure}{\numberline {49}{\ignorespaces The Upper Windows Aligned}}{43}{Item.126}
+\contentsline {figure}{\numberline {50}{\ignorespaces Final Upper Window Arrangements}}{44}{Item.128}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {51}{\ignorespaces The Revit Curtain Wall Segments Selected}}{43}{Item.131}
-\contentsline {figure}{\numberline {52}{\ignorespaces The Final Curtain Wall Arrangement}}{44}{Item.133}
-\contentsline {figure}{\numberline {53}{\ignorespaces The Finalized 3D Image of Curtain Walls}}{45}{Item.139}
-\contentsline {figure}{\numberline {54}{\ignorespaces All walls selected for attachment process}}{45}{Item.142}
-\contentsline {figure}{\numberline {55}{\ignorespaces The Recently Attached Walls}}{46}{Item.145}
-\contentsline {figure}{\numberline {56}{\ignorespaces A Correct Side Entry Deck}}{47}{Item.150}
-\contentsline {figure}{\numberline {57}{\ignorespaces A wall Added to the Entry Deck}}{47}{Item.153}
-\contentsline {figure}{\numberline {58}{\ignorespaces The Retracted Entry Deck}}{48}{Item.156}
-\contentsline {figure}{\numberline {59}{\ignorespaces An example of the replaced retracted section}}{48}{Item.158}
-\contentsline {figure}{\numberline {60}{\ignorespaces A Sloped Deck}}{48}{Item.162}
+\contentsline {figure}{\numberline {51}{\ignorespaces The Revit Curtain Wall Segments Selected}}{45}{Item.131}
+\contentsline {figure}{\numberline {52}{\ignorespaces The Final Curtain Wall Arrangement}}{46}{Item.133}
+\contentsline {figure}{\numberline {53}{\ignorespaces The Finalized 3D Image of Curtain Walls}}{47}{Item.139}
+\contentsline {figure}{\numberline {54}{\ignorespaces All walls selected for attachment process}}{47}{Item.142}
+\contentsline {figure}{\numberline {55}{\ignorespaces The Recently Attached Walls}}{48}{Item.145}
+\contentsline {figure}{\numberline {56}{\ignorespaces A Correct Side Entry Deck}}{49}{Item.150}
+\contentsline {figure}{\numberline {57}{\ignorespaces A wall Added to the Entry Deck}}{49}{Item.153}
+\contentsline {figure}{\numberline {58}{\ignorespaces The Retracted Entry Deck}}{50}{Item.156}
+\contentsline {figure}{\numberline {59}{\ignorespaces An example of the replaced retracted section}}{50}{Item.158}
+\contentsline {figure}{\numberline {60}{\ignorespaces A Sloped Deck}}{50}{Item.162}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {61}{\ignorespaces The placement of Stairs}}{49}{Item.168}
-\contentsline {figure}{\numberline {62}{\ignorespaces A Space in the Floor for Stair}}{49}{Item.170}
-\contentsline {figure}{\numberline {63}{\ignorespaces The railings of stairs selected}}{50}{Item.171}
-\contentsline {figure}{\numberline {64}{\ignorespaces The Entry Level Railing}}{50}{Item.174}
-\contentsline {figure}{\numberline {65}{\ignorespaces The Final Upper Railings}}{51}{Item.179}
-\contentsline {figure}{\numberline {66}{\ignorespaces Your Final Roof Footprint}}{52}{Item.182}
+\contentsline {figure}{\numberline {61}{\ignorespaces The placement of Stairs}}{51}{Item.168}
+\contentsline {figure}{\numberline {62}{\ignorespaces A Space in the Floor for Stair}}{51}{Item.170}
+\contentsline {figure}{\numberline {63}{\ignorespaces The railings of stairs selected}}{52}{Item.171}
+\contentsline {figure}{\numberline {64}{\ignorespaces The Entry Level Railing}}{52}{Item.174}
+\contentsline {figure}{\numberline {65}{\ignorespaces The Final Upper Railings}}{53}{Item.179}
+\contentsline {figure}{\numberline {66}{\ignorespaces Your Final Roof Footprint}}{54}{Item.182}
+\contentsline {figure}{\numberline {67}{\ignorespaces The Completed 3D View of the House}}{54}{Item.184}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {68}{\ignorespaces The Location of the Initial Sectioning Line}}{55}{Item.187}
+\contentsline {figure}{\numberline {69}{\ignorespaces The Door Schedule}}{56}{Item.201}
+\contentsline {figure}{\numberline {70}{\ignorespaces Room Markers}}{57}{Item.211}
+\contentsline {figure}{\numberline {71}{\ignorespaces Colorized Rooms}}{58}{Item.215}
 \addvspace {10\p@ }
 \contentsfinish 

@@ -1137,12 +1137,114 @@ In this section of the guide you will complete the interior of the house. You wi
 		\label{fig:revroofextend}
 	\end{figure}
 	\item Attach your Side Wall to the Roof
+	
+	\item Appreciate What you have created. You are done with the construction of the house. But you aren't done, what's left is the documentation.
+	
+	\begin{figure*}
+		\includegraphics[width=\linewidth]{revitfinalthreed.png}
+		\caption{The Completed 3D View of the House}
+		\label{fig:revthreedfinalhouse}
+	\end{figure*}
 \end{enumerate}
 
 \chapter{Chapter 9 - Creating the Project Documentation}
 \label{ch:9}
+In this final chapter, you will be documenting the creation of the house. Listing the furniture, explaining the location of the sun, and finally placing all of this information on a large piece of paper.
+\begin{enumerate}
+\section{Creating Section Views}
+	\item Go to the view: \menu{Side Bar > Project Browser > Floor Plans > 02 Entry Level}
+	\item Select this tool: \menu{View > Create > Section }
+	\item With the tool selected, Choose a point, most likely centered under the location of the Master Bedroom door, and drag it to the right end of the house. Reference figure \ref{fig:revsectioninit}
+
+	\begin{figure}
+		\includegraphics[width=\linewidth]{revitsectionintial.png}
+		\caption{The Location of the Initial Sectioning Line}
+		\label{fig:revsectioninit}
+	\end{figure}
 	
+	\item This should create a new View: \menu{Side Bar > Project Browser > Sections > Section 1}. Enter That View.
+	
+\section{Creating Door and Window Markers}
+	\item Go to the view: \menu{Side Bar > Project Browser > Floor Plans > 01 Lower Level}
+	\item Click on the Following tool: \menu{Annotate > Tag > Tag All}
+	\item When Clicking on that tool, a tabular menu will popup.
+	\item Click on the door tags cell, which is the first one, and click \menu{Apply}. Don't click \menu{OK} yet
+	\item Now scroll down until you get to the cell that says \menu{Window Tags | Window Tag}. With that one selected click \menu{Apply}. Now you can click \menu{OK}
+	\item Go to view: \menu{Side Bar > Project Browser > Floor Plans > 02 Entry Level} and repeat the previous directions.
+\section{Create Schedules}
+	\subsection{Create a Door Schedule}
+		\item Click on the tool: \menu{View > Create > Schedules > Schedule Quantities}
+		\item in the category listing scroll down until you reach Doors
+		\item With Doors selected, click \menu{OK}
+		\item Double click on items to add or remove them.
+		\item Add the following items in this order: \keys{Family and Type + Count + Level}
+		\item Click \menu{OK}
+		\item A spreadsheet will popup. You can adjust the cell size to your liking. It should look similar to figure\ref{fig:revdoorschedule}
 		
+		\begin{marginfigure}
+			\includegraphics[width=\linewidth]{revitdoorschedule.png}
+			\caption{The Door Schedule}
+			\emph{Your schedule should look similar if not exact to this}
+			\label{fig:revdoorschedule}
+		\end{marginfigure}
+		
+	\subsection{Creating a Room Schedule}
+		\item Do the same as you did with the previous. Select the Room option under \menu{Schedule Quantities} schedule, with these options, in this order: \keys{Name + Level + Area}
+		\item Click \menu{OK}
+		\item The schedule that appears will be empty, until you add room identification.
+		
+	\subsection{Creating Room Markers}
+		\item Go to view: \menu{Side Bar > Project Browser > Floor Plans > 01 Lower Level}
+		\item Go to the tool: \menu{Architecture > Room \& Area > Room}
+		\item If, in the lower area, you are unable to place properly bounding rooms, then select the \menu{Architecture > Room \& Area > Room Separater} and manually trace all the walls, to create boundary layers.
+		\item Now place down the room markers in each separate room
+		\item Double Click Each Room Marker where it says: \menu{Room} to change the name to something you wish.
+		\item Repeat these instructions for view: \menu{Side Bar > Project Browser > Floors Plans > 02 Entry Level}
+		\item Reference Figure \ref{fig:revroommarkers}
+		
+		\begin{figure}
+			\includegraphics[width=\linewidth]{revitroommakers.png}
+			\caption{Room Markers}
+			\emph{Your room markers should look similar to this}
+			\label{fig:revroommarkers}
+		\end{figure}
+		
+	\subsection{Add Color to the Room Markers}
+		\item Go to view: \menu{Side Bar > Project Browser > Floor Plans > 01 Lower Level}
+		\item Select the following tool: \menu{Annotate > Color Fill > Color Fill Legend}
+		\item Click the tool, and click somewhere off to the side of the workspace. A popup will come up. Enter the following settings. \menu{Space type:} should be \menu{Rooms}. \menu{Color Scheme:} should be \menu{Name}
+		\item Do the same on view \menu{Side Bar > Project Browser > Floor Plans > 01 Lower Level}
+		
+		\begin{figure*}
+			\includegraphics[width=\linewidth]{revitroomcolorfinal.png}
+			\caption{Colorized Rooms}
+			\emph{Your Room colour may differ, but the general look should stay the same}
+			\label{fig:revroomcolor}
+		\end{figure*}
+		
+	\subsection{Creating a Solar Study}
+		\item On the bottom bar you have an image of a sun. If you click the image of the sun, you can click the following menu: \menu{Sun Settings}
+		\item The settings should be \menu{Single Day}
+		\item In the large white box select \menu{One Day Solar Study}, and click \keys{OK}
+		\item Clicking on the sun icon again click \menu{Sun Path ON}
+		\item You have just created your Solar Study
+		
+\section{Create a Sheet}
+	\item On the \menu{Side Bar > Project Browser} is a section called \menu{Sheets (ALL)}
+	\item Right click on that section, and click \menu{New Sheet...}
+	\item If you instructor informs you that you are not using the default size, then click \menu{Load...} and go to the directory: \directory{Titleblocks}. and choose the one required. For this instance we are using \directory{C 17 x 22}
+	\item You will be given a large page on your screen. To add viewpoints from your project, just drag them from the \menu{Side Bar > Project Browser}
+	\item Drag the following views onto the page:
+	\begin{itemize}
+		\item \menu{Side Bar > Project Browser > Floor Plans > 01 Lower Level}
+		\item \menu{Side Bar > Project Browser > Floor Plans > 02 Lower Level}
+		\item \menu{Side Bar > Project Browser > Elevations East}
+		\item \menu{Side Bar > Project Browser > Elevations > South}
+		\item And all your schedules
+	\end{itemize}
+	\item If you need to you, you can create two sheets to fit everything
+	\item You can click on the titles in the sheet to change them, I suggest adding your name.
+\end{enumerate} 		
 
 
 	

@@ -959,37 +959,103 @@ In this section of the guide, you will be learning how to create new wall types,
 			\emph{Yours should look rather similar to this}
 			\label{fig:revcurtthreedfinal}
 		\end{figure*}
+		
 \section{Attaching Walls to the Roof}
 	\item If not given proper instruction, attaching walls to the roof may be challenging, but is actually one of the most simple exercises in Revit
 	\item while in 3D view, \keys{Ctrl + Click} each exterior wall, excluding the Retaining walls.
 	\item Reference Figure \ref{fig:revattachinit}
+	
 	\begin{figure}
 		\includegraphics[width=\linewidth]{revitattachmentwallsinitial.png}
 		\caption[All walls selected for attachment process]{Here all the walls are selected through \keys{Ctrl + Click}ing.}
 		\emph{Notice! Use the gap between the walls and the roof to select the interior walls as well. If you click elsewhere and your selection disappears, right click, and a context menu will appears, select: \menu{Select Previous}. \keys{Shift + Click}ing also will remove a wall from your selection}	
 	\end{figure}
+	
 	\item Then click on the tool: \menu{Modify | Walls > Modify Wall > Attach Top/Base}, and with all the walls still selected, click on the roof.
 	\item Any alerts that show up, which may be on the bottom right of your screen, ignore, unless it says \menu{Delete Elements} in regards to the Curtain Wall Mullions, then click that option, if you have any concerns, reference a Instructor or Friend
 	\item Now admire your attached walls and Curtain wall in the 3D view for a moment. Pat yourself on the back, you've made it further than most, but you're not done yet.
+	
 	\begin{figure*}
 		\includegraphics[width=\linewidth]{revitattachfinal.png}
 		\caption{The Recently Attached Walls}
 		\emph{Note that the side door is missing in these past 3D visualizations, this is to keep the focus on the walls, and not the door.}
 	\end{figure*}
+	
 \section{Creating the Entry Deck}
-	\item Open the view: \menu{Side Bar > Project Browser > Floor Plans > 02 Entry Level}
-	\item select the following tool: \menu{Architecture > Build > Floor}
-	\item Create a new floor right outside the topmost wall. Pick a point close to where the top corner is of the current floor. When you choose that point, move up \menu{11'0"}
-	\item Then, at the leftmost corner of the topmost wall, make a point and move up \menu{3'6"}
-	\item Now connect the two points, reference figure \ref{fig:reventdeckinit}
+	\subsection{Creating the Initial Deck}
+		\item Open the view: \menu{Side Bar > Project Browser > Floor Plans > 02 Entry Level}
+		\item select the following tool: \menu{Architecture > Build > Floor}
+		\item Create a new floor right outside the topmost wall. Pick a point close to where the top corner is of the current floor. When you choose that point, move up \menu{11'0"}
+		\item Then, at the leftmost corner of the topmost wall, make a point and move up \menu{3'6"}
+		\item Now connect the two points, reference figure \ref{fig:reventdeckinit}
+		
+		\begin{figure}
+			\includegraphics[width=\linewidth]{revitsideentrydeckinit.png}
+			\caption{A Correct Side Entry Deck}
+			\emph{Yours should look very close to this. If not, then correct, or reference Instructor or friend}
+			\label{fig:reventdeckinit}
+		\end{figure}
+		
+		\item If satisfied, click done, say no to any popups after finishing.
+	\subsection{Adding a Wall to the Entry Deck}
+		\item In the same view, select a wall with these settings: 
+		
+		\newthought{}\begin{tabular}{c | c}
+			Settings & \menu{Basic Wall Retaining - 12" Concrete}\\
+			\hline
+			Location Line & Core Face Interior\\
+			Base Constraint & \menu{00 Foundation}\\
+			Base Offset & \menu{0'0"}\\
+			Top Constraint & Up to \menu{03 Roof Level}\\
+			Top Offset & \menu{0'0"}\\
+		\end{tabular}
+		
+		\item Take the wall with those settings and drag a wall diagonal against the hypotenuse of the deck. Reference Figure \ref{fig:reventrywall}
+		
+		\begin{figure}
+			\includegraphics[width=\linewidth]{revitentrywalkwalls.png}
+			\caption{A wall Added to the Entry Deck}
+			\emph{Make sure your wall looks like this}
+			\label{fig:reventrywall}
+		\end{figure}
+		
+	\subsection{Shortening the Deck}
+		\item Click on the deck and click \menu{Modify | Floors > Mode > Edit Boundary}
+		\item Drag the leftmost line with your cursor until it is approximately \( \frac{1}{3} \) past the leftmost edge of the wall
+		\item Finish, it goes without saying to say no to any popups
+		
+		\begin{figure}
+			\includegraphics[width=\linewidth]{revitentrydeckretracted.png}
+			\caption{The Retracted Entry Deck}
+			\emph{Make sure yours looks rather similar to this}
+			\label{fig:reventrydeckretract}
+		\end{figure}
 	
-	\begin{figure}
-		\includegraphics[width=\linewidth]{revitsideentrydeckinit.png}
-		\caption{A Correct Side Entry Deck}
-		\emph{Yours should look very close to this. If not, then correct, or reference Instructor or friend}
-		\label{fig:reventdeckinit}
-	\end{figure}
-	
+	\subsection{Adding a Sloped Floor}
+		\item select the \menu{Architecture > Build > Floor Tool}
+		\item Create another, seperate floor, where the retracted section once was.
+		
+		\begin{marginfigure}
+			\includegraphics[width=\linewidth]{revitentrydeckslopeinit.png}
+			\caption{An example of the replaced retracted section}
+			\label{fig:reventrydeckretractinit}
+		\end{marginfigure}
+		
+		\item While still in creation mode select the following tool:\\ \menu{Modify | Create Floor Boundary > Draw > Slope Arrow}
+		\item Draw a \menu{Slope Arrow} pointing to the right, completely perpendicular to the leftmost line
+		\item Click on the slope arrow and give it the following settings:
+		
+		\newthought{}\begin{tabular}{c | c}
+			Specify & Height at Tail\\
+			Height Offset at Tail & \menu{-1'}\\
+		\end{tabular}
+		
+		\item Click finish and say no to any popups. Go into the view: \menu{Side Bar > Project Browser > Elevations > North}
+		
+		\begin{marginfigure}
+		\includegraphics[width=\linewidth]{revitentrydeckfinal.png}
+		\caption[A Sloped Deck]{Go into a 3d view and edit the slope in the footprint until it reaches the ground. This picture is at \menu{-5'} height offset}
+		\end{marginfigure}
 \end{enumerate}
 	
 	

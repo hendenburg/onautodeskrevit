@@ -628,14 +628,14 @@ The purpose of this guide is to continue on the education of wall creation. This
 	\item Navigate to \menu{Side Bar > Project Browser > Floor Plans > 01 Entry Level}.
 	\begin{marginfigure}
 		\includegraphics[width=\linewidth]{revitupperfloortool.png}
-		\caption{Upper Level Floor Tools}
+		\caption{Entry Level Floor Tools}
 		\emph{Make sure you are using this tool, not the previous one.}
 		\label{fig:revupperlevelfloortool}
 	\end{marginfigure}
 	\item Instead of the tool you were using before, select the \menu{Line Tool}
 	\item Make sure that \menu{Options Bar > Chain:} is selected
 	\item From the top right place a point to create the flooring
-	\item Use the following method to create the upper level floors
+	\item Use the following method to create the Entry Level floors
 	\begin{enumerate}
 		\item Move to the right and type: \menu{36'}
 		\item Move down and type: \menu{16'6"}
@@ -645,7 +645,7 @@ The purpose of this guide is to continue on the education of wall creation. This
 	\end{enumerate}
 	\begin{figure}
 	\includegraphics[width=\linewidth]{revitupperlevelfloors.png}
-	\caption[Upper level final floors]{The flooring for the upper level is essential. The fact that it doesn't fully cover that level is for the creation of a single atrium for the living room. As you get further you will see how the windows and stairs coincide with this design.}
+	\caption[Entry Level final floors]{The flooring for the Entry Level is essential. The fact that it doesn't fully cover that level is for the creation of a single atrium for the living room. As you get further you will see how the windows and stairs coincide with this design.}
 	\emph{Your Floor should look, exactly like, or similar to this.}
 	\end{figure}
 	\item Once you have done this, you may finish the floorplan by clicking the large green checkmark
@@ -720,26 +720,26 @@ In this guide you will continue on your education of wall creation. This time in
 			\label{fig:revlowerlevelwallshallway}
 		\end{figure}
 	\end{enumerate}
-	\section{Creating the Upper Level Walls}
-	\item In this section, you're going to take charge on the construction of the upper level walls, following a figure. This should be on view: \menu{Side Bar > Project Browser > Floor Plans > 02 Upper Level}, and using the following options:
+	\section{Creating the Entry Level Walls}
+	\item In this section, you're going to take charge on the construction of the Entry Level walls, following a figure. This should be on view: \menu{Side Bar > Project Browser > Floor Plans > 02 Entry Level}, and using the following options:
 	
 	\newthought{}\begin{tabular}{c | c}
 		Settings & \menu{Generic - 6"}\\
 		\hline
 		Location Line & Wall Centerline\\
-		Base Constraint & \menu{02 Upper Level}\\
+		Base Constraint & \menu{02 Entry Level}\\
 		Base Offset & \menu{0'0"}\\
 		Top Constraint & Up to \menu{03 Roof Level}\\
 		Top Offset & \menu{0'0"}\\
 	\end{tabular}
 	
-	\marginnote{Advanced: When you are creating your upper level walls, if you have trouble seeing because you are seeing the lower level walls at fulltone, do this: To select multiple walls for an options hold down the \keys{Ctrl} key and click the lowerlevel walls that you want to be halftone. When those are selected, rightclick on one of them, and click \menu{Context Menu > Override Graphics in View > Element}, a popup should come onto your screen. in the top right corner of that popup is a checkbox that says \menu{Halftone:} if you check that and click apply, then it will be halftone}
+	\marginnote{Advanced: When you are creating your Entry Level walls, if you have trouble seeing because you are seeing the lower level walls at fulltone, do this: To select multiple walls for an options hold down the \keys{Ctrl} key and click the lowerlevel walls that you want to be halftone. When those are selected, rightclick on one of them, and click \menu{Context Menu > Override Graphics in View > Element}, a popup should come onto your screen. in the top right corner of that popup is a checkbox that says \menu{Halftone:} if you check that and click apply, then it will be halftone}
 	\item In the figure \ref{fig:revuppwallsfinal} you should be creating the walls that are not halftone, meaning the walls that are the darker shade.
 	
 	
 	\begin{figure*}
 		\includegraphics[width=\linewidth]{revitupperfloorsfinal.PNG}
-		\caption{Upper level interior walls}
+		\caption{Entry Level interior walls}
 		\emph{You can change these up however you want, but make sure they have similar composition}
 		\label{fig:revuppwallsfinal}
 	\end{figure*}
@@ -750,13 +750,251 @@ In this guide you will continue on your education of wall creation. This time in
 \chapter{Chapter 6 - Creating Doors and Windows}
 \label{ch:6}
 In this particular section, you will be guided into adding Doors and Windows, which also doubles as a guide to the initial selection of objects
-\Section{Adding Exterior Doors}
+\section{Adding Exterior Doors}
 \begin{enumerate}
 	\item Go to the view level: \menu{Side Bar > Project Browser > Floor Plans > 01 Lower Level}
 	
 	\subsection{Adding Objects from a Library}
-		\item 
+		\item Have the door tool selected, which is: \menu{Architecture > Build > Door}
+		\marginnote{The Tool: \menu{Model In-Place}, which is adjacent to \menu{Load Family} Allows you to create your own furniture right into the workspace. It is an advanced tool, but if you continue along the Revit path, you may come across that tool later}
+		\marginnote{Assume that our document root of this example is: \directory{C: / Program Data / Autodesk / RVT 2016 / Libraries / US Imperial}}
+		\item Inside the Modify bar is the following option: \menu{Modify | Place Door > Mode > Load Family} When you click on that, a popup with an object directory comes up
+		\item Go into the following directory to find the required object: \directory{Doors > Double-Glass.rfa}. If you are unable to find it, you can substitute it with any other available model.
+		\item A table should come up, this allows you to load in select objects in that door group, or all of them. Just click on the first cell of the table, which is \menu{68"x80"} and click \keys{OK}
+	\subsection{Creating the Lower Level Exterior Door}
+		\item After clicking OK, you should have the door selected. Place it on the bottom of the rightmost wall. When placing a door, the orientation that the door swings, is dependant on which side of the wall your mouse is closest to. You're going to want your mouse nearest to the right side of the wall. This will cause the door to swing out into the exterior. When referring to a doors orientation, we will refer to as an exterior or interior swing. If the door is inside, then the exterior is merely swinging outside the room that it is being placed.
+		\begin{marginfigure}
+			\includegraphics[width=\linewidth]{revitlowerexteriordoor.png}
+			\caption{The Revit Lower Level Exterior Door}
+			\emph{Your door should look similar to this, though the location doesn't have to be exact, it should be around the same area.}
+			\label{fig:revlowerouterdoor}
+		\end{marginfigure}
+		\item We can refer to this door in the same way as walls we placed earlier, using the following options table, as well as choosing different doors like choosing different walls
+		
+		\newthought{}\begin{tabular}{c | c}
+			Settings & \menu{Door-Double-Glass 68"x80"}\\
+			\hline
+			Sill Height & \menu{0'0"}\\
+			Head Height & \menu{6'8"}
+		\end{tabular}
+	\subsection{Creating the Entry Level Exterior Door}
+		\item Using the same door settings as before go to view: \menu{Side Bar > Project Browser > Floor Plans > 02 Entry Level}
+		\begin{marginfigure}
+			\includegraphics[width=\linewidth]{revitupperlevelexteriordoor.png}
+			\caption [Entry Level Exterior Door] {Your door should be placed only when you see the \menu{7'0"} guide marker next to your door. This represents the distance to the end of the Retaining Wall. Remember that there is a difference between your Retaining and Foundation Walls, your retaining walls are meant to Retain Terrain.}
+			\emph{Your door should look like this}
+			\label{fig:revupperouterdoor}
+		\end{marginfigure}
+		\item Prepare to place the door on the topmost retaining wall. Only place it when the guide lines show that you are \menu{7'0"} away from the right edge of the retaining wall, reference Figure \ref{fig:revupperouterdoor}
+		\item Load in an object like before, the directory is: \directory{Doors / Residential / Door-Interior-Single-Full Glass-Wood.rfa}. Select only the seventh cell down in the table and click \keys{OK}
+		\begin{marginfigure}
+			\includegraphics[width=\linewidth]{revitupperouterbalconydoor.png}
+			\caption{The Balcony Door}
+			\emph{Your door should look like this}
+			\label{fig:revupperouterbalcdoor}
+		\end{marginfigure}
+		\item Using that door, place a door with an interior swing on the balcony. Refer to Figure \ref{fig:revupperouterbalcdoor}
+	\section{Adding Interior Doors}
+	\item Stay on the Floor Plan that you're currently on.
+	\item Use the following door settings:
+		\newthought{}\begin{tabular}{c | c}
+			Settings & \menu{Single-Flush 30"x80"}\\
+			\hline
+			Sill Height & \menu{0'0"}\\
+			Head Height & \menu{6'8"}
+		\end{tabular}
+	\subsection{Entry Level Interior Doors}
+		\item There should be three identifiable rooms on the Entry Level: A Medium Sized Bedroom, A Closet, and Everything else.
+		\item Click on the \menu{Medium Size Bedroom} on it's bottom right edge. Put an interior facing door near the right edge of the bottomost wall of that room.
+		\item On the left side of that wall is the adjacent wall which the \menu{Medium Size Bedroom} shares with the \menu{Closet} Place an exterior facing door on the closets topmost wall
+		\item Refer to Figure \ref{fig:revupperinterdoors} for an idea of what this means
+		
+		\begin{figure}
+			\includegraphics[width=\linewidth]{revitupperinteriordoors.png}
+			\caption[Upper Interior Doors]{The Upper Interiors doors access these two rooms, you can see the door connecting the \menu{Medium Size Bedroom} and \menu{Everything Else} is interior because it's facing into the wall you're attaching it to. The closet door is exterior because it's facing away from the main room it's connecting. In an effort to stay away from pedantry, it's best to look at the following figure and then reference the guide for specific details. You'll get a hang of it}
+			\label{fig:revupperinterdoors}
+		\end{figure}
+		
+	\subsection{Lower Level Interior Doors}
+		\item You should use the same door settings as the previous sub-section
+		\item You should identify Five untique rooms: the \menu{Master Bedroom}, the smaller \menu{Closet 1}, the larger \menu{Closet 2}, The room which is larger than the closets, yet smaller than the Master Bed, the \menu{Bathroom}, and finally \menu{Everything Else}:
+		\marginnote{You can safely assume that the main room is the first listed. So when it's exterior facing, we mean the exterior of the main room.}
+		\begin{itemize}
+			\item Place a door on the \menu{Closet 1} connecting to \menu{Everything Else}, exterior facing
+			\item Place a door on the \menu{Closet 2} connecting to \menu{Everything Else}, exterior facing.
+			\item Place a door on the \menu{Bathroom} connecting to \menu{Everything Else}, interior facing
+			\item Place a door on the \menu{Master Bedroom} connecting to \menu{Everything Else}, interior facing.
+		\end{itemize}
+		\item Reference Figure \ref{fig:revlowerintwalls}
+		\begin{figure}
+			\includegraphics[width=\linewidth]{revitlowerlevelinteriorwalls.png}
+			\caption{Lower Level Interior Walls}
+			\emph{In this case, your doors do not have to look exactly like mine, although the orientation has to be correct. Look at the listing and see how the exterior and interior facing coincides with the picture. The leniency you have is, for instance, changing where you have the door of the \menu{Master Bedroom.}}
+			\label{fig:revlowerintwalls}
+		\end{figure}
+	\section{Adding Windows}
+	\subsection{Lower Level Windows}
+		\item Open up this view: \menu{Side Bar > Project Browser > Elevations > South}
+		\item Select the following tool; \menu{Architecture > Build > Window}
+		\item Use the following properties:
+		
+		\newthought{}\begin{tabular}{c | c}
+			Settings & \menu{Fixed 36"x48"}\\
+			\hline
+			Sill Height & \menu{3'0"}\\
+			Head Height & \menu{7'0"} 
+		\end{tabular}
+		
+		\item With the window selected, place it along the retaining wall, like in the Figure \ref{fig:revsouthwindows}
+		
+		\begin{figure}
+			
+			\includegraphics[width=\linewidth]{revitsouthernwindows.png}
+			\caption{The Location of the Retaining Windows}
+			\label{fig:revsouthwindows}
+		\end{figure}
+		
+		\item Now go into the view: \menu{Side Bar > Project Browser > Floor Plans > 01 Lower Level}
+		\clearpage
+		\item If you do not see the windows in this view, go into these settings with the background selected: inside \menu{Side Bar > Properties > Extents > View Range > Primary Range > Cut Plane > Offset:} and set the number inside as \menu{6'0"}
+		\item Now you can properly move the windows. Select the right window and move it until it is \menu{2'6"} from the right interior walls, and move the left window until it is \menu{9'6"} from the leftmost wall. Reference figure \ref{fig:revlowerwindowfinal}
+		
+		\begin{figure}
+			\includegraphics[width=\linewidth]{revitlowerwindowfinal.png}
+			\caption{The Final Lower Level Windows}
+			\emph{Your windows should look like this, annotations excluded}
+			\label{fig:revlowerwindowfinal}
+		\end{figure}
+		
+	\subsection{Entry Level Windows}
+		\item You can use the same windows settings as in the previous section
+		\item Go to view: \menu{Side Bar > Project Browser > Floor Plans > 02 Entry Level}
+		
+		\begin{marginfigure}
+			\includegraphics[width=\linewidth]{revitupperwindowinitial.png}
+			\caption{The initial Entry Level Windows}
+			\emph{Do not be worried if they are staggered, that will be dealt with}
+			\label{fig:revupperwindowinit}
+		\end{marginfigure}
+		
+		\item Place three windows on the leftmost wall of the \menu{Medium Size Bedroom} reference Figure \ref{fig:revupperwindowinit}
+		\item Select the following tool: \menu{Annotate > Dimension > Aligned}
+		\item Click on the items in this order: The topmost wall, the middle of the first window, the middle of the second window, the middle of the third window, and the room's bottommost wall. Reference Figure \ref{fig:revupperwindowaligned}
+		
+		\begin{marginfigure}
+			\includegraphics[width=\linewidth]{revitupperwindowaligned.png}
+			\caption{The Upper Windows Aligned}
+			\emph{Your windows should look like this with the alignment tool properly applied, they should not have changed yet.}
+			\label{fig:revupperwindowaligned}
+		\end{marginfigure}
+		
+		\item Click on the line which holds the alignment numbers, to the left of all the numbers should be a little symbol. It says \menu{EQ} with a line through it.
+		\item Click on the little \menu{EQ}. All your windows should become equal in distance, and the numbers should change to EQ. Check figure \ref{fig:revupperwindowfinal}
+		
+		\begin{figure}
+			\includegraphics[width=\linewidth]{revitupperwindowfinal.png}
+			\caption{Final Upper Window Arrangements}
+			\emph{Your windows should look similar to this}
+			\label{fig:revupperwindowfinal}
+		\end{figure}
 \end{enumerate}
+		
+\chapter{Chapter 7 - Creating a Curtain Wall, Connected Walls, and Entry Deck}
+\label{ch:7}
+In this section of the guide, you will be learning how to create new wall types, connecting walls to the roof, and creating an entry level deck.
+\begin{enumerate}
+\section{Creating a Curtain Wall}
+	\item Open up to view: \menu{Side Bar > Project Browser > Floor Plans > 01 Lower Level}
+	\item Using the \menu{Modify > Modify > Split Element} tool from when creating a hallway, split a point above the \menu{01 Lower Level} Exterior Door.
+	\item Using the \keys{Ctrl + Click} combination your learned earlier, select the segment that you seperated from the wall, and the topmost \menu{Generic 6"} wall segment.
+	
+	\begin{marginfigure}
+		\includegraphics[width=\linewidth]{revitcurtainwallinit.png}
+		\caption[The Revit Curtain Wall Segments Selected]{These are the segments you should have split, and selected for the creation of the curtain walls.}
+		\label{fig:revcurtwallinit}
+	\end{marginfigure}
+	
+	\item With the segments selected, go into properties and give it the following:
+	
+	\newthought{}\begin{tabular}{c | c}
+		Settings & \menu{Curtain Wall Storefront}\\
+		\hline
+		Location Line & Wall Centerline\\
+		Base Constraint & \menu{01 Lower Level}\\
+		Base Offset & \menu{0'0"}\\
+		Top Constraint & Up to \menu{03 Roof Level}\\
+		Top Offset & \menu{0'0"}\\
+	\end{tabular}
+	
+	\item Refer to Figure \ref{fig:revcurtwallfinal}
+	
+	\begin{figure}
+		\includegraphics[width=\linewidth]{revitcurtainwallfinal.PNG}
+		\caption{The Final Curtain Wall Arrangement}
+		\label{fig:revcurtwallfinal}
+	\end{figure}
+	\subsection{Creating a Unique Curtain Wall Type}
+		\item Below the sections which allows you to change object types is the \menu{Edit Type} Button. If you click it, it gives you a more advanced version of the Object Options
+		\item Click \menu{Side Bar > Properties > Edit Type}
+		\item Inside, click the \menu{Duplicate...} Button. The name should be this: \menu{House 4x4}
+		\item Change the following options to this:
+		
+		\newthought{}\begin{tabular}{c  c}
+			\emph{Vertical Grid} \\
+			\hline
+			Spacing & \menu{4'0"}\\
+			\hline
+			\emph{Horizontal Grid} \\
+			\hline
+			Spacing & \menu{4'0"}
+		\end{tabular}
+		
+		\item Click \menu{OK}
+		\marginnote{If your walls are not visible in 3D view, click on the little Lightbulb at the bottom of the screen. Your screen should go purple and you will be able to see it. Right click the missing wall, and in the context menu, select \menu{Unhide in View > Element} and click the Lightbulb again}
+		\item Go into the 3D view and admire your work.
+		
+		\begin{figure*}	
+			\includegraphics[width=\linewidth]{revitcurtainwall3dviewfinal.png}
+			\caption{The Finalized 3D Image of Curtain Walls}
+			\emph{Yours should look rather similar to this}
+			\label{fig:revcurtthreedfinal}
+		\end{figure*}
+\section{Attaching Walls to the Roof}
+	\item If not given proper instruction, attaching walls to the roof may be challenging, but is actually one of the most simple exercises in Revit
+	\item while in 3D view, \keys{Ctrl + Click} each exterior wall, excluding the Retaining walls.
+	\item Reference Figure \ref{fig:revattachinit}
+	\begin{figure}
+		\includegraphics[width=\linewidth]{revitattachmentwallsinitial.png}
+		\caption[All walls selected for attachment process]{Here all the walls are selected through \keys{Ctrl + Click}ing.}
+		\emph{Notice! Use the gap between the walls and the roof to select the interior walls as well. If you click elsewhere and your selection disappears, right click, and a context menu will appears, select: \menu{Select Previous}. \keys{Shift + Click}ing also will remove a wall from your selection}	
+	\end{figure}
+	\item Then click on the tool: \menu{Modify | Walls > Modify Wall > Attach Top/Base}, and with all the walls still selected, click on the roof.
+	\item Any alerts that show up, which may be on the bottom right of your screen, ignore, unless it says \menu{Delete Elements} in regards to the Curtain Wall Mullions, then click that option, if you have any concerns, reference a Instructor or Friend
+	\item Now admire your attached walls and Curtain wall in the 3D view for a moment. Pat yourself on the back, you've made it further than most, but you're not done yet.
+	\begin{figure*}
+		\includegraphics[width=\linewidth]{revitattachfinal.png}
+		\caption{The Recently Attached Walls}
+		\emph{Note that the side door is missing in these past 3D visualizations, this is to keep the focus on the walls, and not the door.}
+	\end{figure*}
+\section{Creating the Entry Deck}
+	\item Open the view: \menu{Side Bar > Project Browser > Floor Plans > 02 Entry Level}
+	\item select the following tool: \menu{Architecture > Build > Floor}
+	\item Create a new floor right outside the topmost wall. Pick a point close to where the top corner is of the current floor. When you choose that point, move up \menu{11'0"}
+	\item Then, at the leftmost corner of the topmost wall, make a point and move up \menu{3'6"}
+	\item Now connect the two points, reference figure \ref{fig:reventdeckinit}
+	
+	\begin{figure}
+		\includegraphics[width=\linewidth]{revitsideentrydeckinit.png}
+		\caption{A Correct Side Entry Deck}
+		\emph{Yours should look very close to this. If not, then correct, or reference Instructor or friend}
+		\label{fig:reventdeckinit}
+	\end{figure}
+	
+\end{enumerate}
+	
+	
+		
+
 
 	
 

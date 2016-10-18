@@ -1,13 +1,9 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Tufte-Style Book (Minimal Template)
-% LaTeX Template
-% Version 1.0 (5/1/13)
-%
-% This template has been downloaded from:
-% http://www.LaTeXTemplates.com
+% On Autodesk Revit (Tufte-Syle)
+% Version 1.1 (10/18/16)
 %
 % License:
-% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+% GNU Public Liscense
 %
 % IMPORTANT NOTE:
 % In addition to running BibTeX to compile the reference list from the .bib
@@ -255,14 +251,7 @@ As you create the house below, you will become familiar with all these tools; ea
 	\includegraphics[width=\linewidth]{revitmodifytab.png}
 	\caption[The modify bar]{A picture of the \menu{Modify} bar in revit.}
 	\label{fig:revmodtab}
-\end{figure*}
-
-
-
-
-
-
-%------------------------------------------------
+\
 
 
 %----------------------------------------------------------------------------------------
@@ -319,6 +308,10 @@ The following guide's purpose is to establish an understanding of altitudes and 
 		\marginnote{\menu{-4'0"} generally is a good altitude to keep your foundation base, \menu{Level 1} is the foundation for this house, for instance.}
 		\item for \menu{Level 0} where the altitude should be \menu{10'0"}
 	\end{itemize}
+
+
+%----------------------------------------------------------------------------------------
+
 	
 	\section{Creating additional elevations}
 	\marginnote{A context menu is what happens when you right click, the first option should be cancel, in this case, the option you're looking for should be the 10th down}
@@ -349,6 +342,7 @@ The following guide's purpose is to establish an understanding of altitudes and 
 	
 	\item Use the same procedure as used to create \menu{Level 3} to create another elevation at \menu{10'0"}. To do this, make sure your \menu{Options Bar > Offset:} is set to \menu{10'} and create a similar elevation above \menu{Level 3}
 	\item Similar in method to changing a elevation's altitude is changing an elevation's name. For instance, click on \menu{Level 1} where it says 'Level 1', so that it becomes a text box like when changing the altitude. Enter the following name: \menu{00 Foundation}
+
 	\begin{itemize}
 		\item Name the \menu{Level 1} this: \menu{00 Foundation}
 		\item Name the \menu{Level 2} this: \menu{01 Lower Level}
@@ -357,16 +351,29 @@ The following guide's purpose is to establish an understanding of altitudes and 
 	\end{itemize}
 \end{enumerate}
 
+
+%----------------------------------------------------------------------------------------
+%
+% CHAPTER 2
+%
+%----------------------------------------------------------------------------------------
+
+
+
 \chapter{Chapter 2 - Creating the Base of the House}
 \label{ch:2}
 The purpose of this guide is to instruct in the method of creating the foundation for the project.
 \section{Creating the Retaining Walls}
 \begin{enumerate}
+
 	\marginnote{This is why we named our elevations the way we did in the previous chapter. Our floor plans are listed alphabetically in the \menu{Project Browser} so when we have the numbers preceding the name, they are both descriptive, and correctly ordered.}
+
 	\item Select this view \menu{Sidebar > Project Browser > Floor Plans > 00 Foundation}
 	\item Zoom into the lower right quadrant of the workspace
 	\item From there, select the following tool: \menu{Architecture > Wall Tool}. When you click on the screen with this tool selected you create points, just like on a graph you click or drag another point out to create a line, or a wall in this case.
+
 	\marginnote{It's good to make sure that your walls have the correct base and height. If the program does not let you select the correct height, while not perfect, another option is to choose unconnected for the \menu{Sidebar > Properties > Top Constraint} and then select the altitude for the elevation point, for instance, the offset would be \menu{10'0"} for \menu{02 Roof Level}}
+
 	\item If you remember the \menu{Sidebar} for the interface explanation, there was \menu{Sidebar > Properties}, inside this is the options for the wall.
 	
 	
@@ -390,15 +397,17 @@ The purpose of this guide is to instruct in the method of creating the foundatio
 	
 	\item create a base point and move your cursor to the left: type \keys{40'}
 	\item If chain was selected in \menu{Option Bar > Chain:} then, you should just be able to move the cursor up and type in \keys{22'}, otherwise click on your last created point and repeat the aforementioned steps
+
 	\begin{figure}
 		\includegraphics[width=\linewidth]{revitfoundationwalls.png}
 		\caption{The foundation walls}
 		\emph[Revit retaining walls]{This is what your walls should look like}
 		\label{key:revfoundwalls}
 	\end{figure}
+
 	\item Repeat the same steps, moving your cursor right and typing: \keys{40'}
 	
-	
+%----------------------------------------------------------------------------------------
 	
 	\section{Creating your Foundation Walls}
 	\item Select your retaining walls with the following options
@@ -432,6 +441,13 @@ The purpose of this guide is to instruct in the method of creating the foundatio
 	\end{figure*}
 \end{enumerate}
 
+%----------------------------------------------------------------------------------------
+%
+% CHAPTER 3
+%
+%----------------------------------------------------------------------------------------
+
+
 \chapter{Chapter 3 - Creating the Terrain}
 \label{ch:3}
 The purpose of this guide is to introduce the basics of terrain creation in Revit. This should explain the basics of pads and terrain.
@@ -441,61 +457,90 @@ The purpose of this guide is to introduce the basics of terrain creation in Revi
 	\item Select the following tool: \menu{Massing \& Site > Toposurface}
 	\item Select the following options for \menu{Options Bar > Elevation:} to \menu{-0'6"}
 	\item Add points to the left side of the building, like the figure \ref{fig:revtopoinit}
+
 	\begin{figure}
 		\includegraphics[width=\linewidth]{revittopographicinitial.png}
 		\caption{Initial topographic points}
 		\emph{Work to make sure yours looks similar, not exact}
 		\label{fig:revtopoinit}
 	\end{figure}
+
 	\item Select the following options for \menu{Options Bar > Elevation:} to \menu{-10'}
-	\item Select the points as in the figure \ref{fig:revtopotwo}
+	\item Select the points as in the figure \ref{fig:revtoptwo}
+
 	\begin{figure}
 		\includegraphics[width=\linewidth]{revittopographictwo.png}
 		\caption{Second set of topographic points}
 		\emph{Work to make sure yours looks similar, not exact}
 		\label{fig:revtopotwo}
 	\end{figure}
+
 	\item Select the following options for \menu{Options Bar > Elevation:} to \menu{-11'}
 	\item Select the points as in the figure \ref{fig:revtopothree}
+
 	\begin{figure}
 		\includegraphics[width=\linewidth]{revittopographicthree.png}
 		\caption{Third topographic points}
 		\emph{Work to make sure yours looks similar, not exact}
 		\label{fig:revtopothree}
 	\end{figure}
+
 	\clearpage
+
+%----------------------------------------------------------------------------------------
+
 	\section{Setting up a Building Pad}
+
 	\marginnote{Remember that it's best to avoid adding excessive amounts of topographic points, which may slow your computer.}
+
 	\item Having finished the terrain surface by clicking the big green checkmark.
 	\item To create a building pad click on each of the walls with the \menu{Massing \& Site > Building Pad} tool.
 	\item Click each wall, finally click the purple line with three parallel lines attached: click it until the purples lines are only on the exterior of the walls. Reference figure \ref{fig:revtopopad}
+
 	\begin{figure}
 		\includegraphics[width=\linewidth]{revittopographicpad.png}
 		\caption[Building Pad Lines]{When building a pad, it's essential that it covers the buildings base, but doesn't extend past it. The pads purpose it to place a solid foundation base, while making sure that the terrain does not enter the floors of your building, so it removes any terrain where it's at.}
 		\emph{Make sure your pad looks like this, it's not essential but recommended}
 		\label{fig:revtopopad}
 	\end{figure}
+
+%----------------------------------------------------------------------------------------
+
 	\section{Creating a 3D view}
 	\item Click on the tool \menu{View > 3d View}, it will create a new view called \menu{Sidebar > Project Browser > 3d Views > \{3D\}} right click on this view to rename it to something, I recommend \menu{To Building}
+
 	\begin{marginfigure}
 		\includegraphics[width=\linewidth]{revitthreedviewcube.png}
 		\caption[Revit 3D Maneuvering Square]{Use the 3d viewcube to move around the 3D environment. If you grip the sides and corners with your mouse, you can drag it to change your view. }
 		\emph{The proficient use of this is essential, so make sure you focus on it in later projects.}
 		\label{fig:revthreemansquare}
 	\end{marginfigure}
+
 	\item select your renamed \menu{3d View} and use the 3D maneuvering square to change the view. Reference Figure \ref{fig:revthreemansquare}
+
 	\begin{figure}
 		\includegraphics[width=\linewidth]{revitthreedtopographic.png}
 		\caption[Revit 3D view after Topographic Creation]{It's Important that everything looks realistic. When presenting your building, you want to an accurate representation of what it would look like. If you wish for further information, either ask your teacher, or reference any information on rendering}
 		\emph{Make sure your 3D view looks rather similar to this, but it will vary from person to person}
 		\label{fig:revthreedtopo}
 	\end{figure}
+
 \end{enumerate}
+
+%----------------------------------------------------------------------------------------
+%
+% CHAPTER 4
+%
+%----------------------------------------------------------------------------------------
+
 	
 \chapter{Chapter 4 - Creating Exterior Walls, Floors, and Roofs}
 \label{ch:4}
 The purpose of this guide is to continue on the education of wall creation. This also touches on the creation of wall retained floors, and non retained floors.
 \section{Creating Exterior walls}
+
+%----------------------------------------------------------------------------------------
+
 \subsection{Add walls to the entry level}
 
 \begin{enumerate}
@@ -523,6 +568,8 @@ The purpose of this guide is to continue on the education of wall creation. This
 		\label{fig:reventlvlwalls}
 	\end{figure}
 	
+%----------------------------------------------------------------------------------------
+
 	\subsection{Add walls to the Lower level}
 	\item Open up the following: \menu{Sidebar > Project Browser > Floor Plans > 01 Lower Level}
 	\item Use the following settings:
@@ -555,6 +602,8 @@ The purpose of this guide is to continue on the education of wall creation. This
 		\label{fig:revthreedoutwalls}
 	\end{figure*}
 	
+%----------------------------------------------------------------------------------------
+
 	\section{Creating a Roof}
 	\item Go to the following view: \menu{Sidebar > Project Browser > Floor Plans > 03 Roof Level}
 	\item the tool you should use is called: \menu{Architecture > Build > Roof}
@@ -567,6 +616,8 @@ The purpose of this guide is to continue on the education of wall creation. This
 		Slope & 1" / 12" \\
 	\end{tabular}
 	
+%----------------------------------------------------------------------------------------
+
 	\subsection{Draw a roof line}
 	
 	\item When you select the roof tool, you are brought to the modify tab, you will want to select the line tool, which is under \menu{Modify | Create Roof Footprint > Draw > Line Tool}. Selecting that tool allows you to create a roof in the same was as a wall, except to create a roof, you must create a closed perimeter with your lines to define the roof.
@@ -600,6 +651,8 @@ The purpose of this guide is to continue on the education of wall creation. This
 		\label{fig:revrooflines}
 	\end{figure}
 	
+%----------------------------------------------------------------------------------------
+
 	\section{Creating Floors}
 	\subsection{Creating Lower Level Floors}
 	\item Open up the view: \menu{Side Bar > Project Browser > Floor Plans > 01 Lower Level}
@@ -622,20 +675,27 @@ The purpose of this guide is to continue on the education of wall creation. This
 	\end{figure}
 	
 	\marginnote{The popups are in regards to the wall's geometry that you attach too. You will most likely never need to worry about that.}
+
 	\item Say no to all popups after creating the floor, for the time being, you do not need to worry about those
+
+%----------------------------------------------------------------------------------------
+
 	\subsection{Creating the Entry Level Walls}
 	\item The creation of the \menu{01 Entry Level} walls is a bit more hands on.
 	\item Navigate to \menu{Side Bar > Project Browser > Floor Plans > 01 Entry Level}.
+
 	\begin{marginfigure}
 		\includegraphics[width=\linewidth]{revitupperfloortool.png}
 		\caption{Entry Level Floor Tools}
 		\emph{Make sure you are using this tool, not the previous one.}
 		\label{fig:revupperlevelfloortool}
 	\end{marginfigure}
+
 	\item Instead of the tool you were using before, select the \menu{Line Tool}
 	\item Make sure that \menu{Options Bar > Chain:} is selected
 	\item From the top right place a point to create the flooring
 	\item Use the following method to create the Entry Level floors
+
 	\begin{enumerate}
 		\item Move to the right and type: \menu{36'}
 		\item Move down and type: \menu{16'6"}
@@ -643,37 +703,53 @@ The purpose of this guide is to continue on the education of wall creation. This
 		\item Move down and type: \menu{4'6"}
 		\item Then move your cursor to the bottom left of the model and complete the sketch
 	\end{enumerate}
+
 	\begin{figure}
 	\includegraphics[width=\linewidth]{revitupperlevelfloors.png}
 	\caption[Entry Level final floors]{The flooring for the Entry Level is essential. The fact that it doesn't fully cover that level is for the creation of a single atrium for the living room. As you get further you will see how the windows and stairs coincide with this design.}
 	\emph{Your Floor should look, exactly like, or similar to this.}
 	\end{figure}
+
 	\item Once you have done this, you may finish the floorplan by clicking the large green checkmark
+
 	\marginnote{Like before, any alert dialogs that pop up on the screen are not relevant to you, and should be either ignored or,if particularly concerning, consult your instructor.}
 	
+%----------------------------------------------------------------------------------------
+
 	\subsection{Viewing Your Floors in 3d}
+
 	\begin{marginfigure}
 		\includegraphics[width=\linewidth]{revit3dfloorcontext.png}
 		\caption[3D wall context menu]{What pops up here should be the caption menu when right clicking a wall. }
 		\label{fig:revthreedfloorcontx}
 	\end{marginfigure}
+
 	\item Select the view:\\ \menu{Side Bar > Project Browser > 3D Views > [What you named your primary 3D View]}
 	\item Now, using your 3D view wheel, position your building do the front-right corner is at the forefront, this should be the default position
 	\item, Right click the wall on the right: click on the context menu that comes up. Use the following options: \menu{Context Menu > Hide in View > By Element}
+
 	\begin{figure}
 		\includegraphics[width=\linewidth]{revit3dfloorview.png}
 		\caption{The final 3d floor view}
 		\emph{Your view should look similar to this, excluding view point discrepancies.}
 		\label{fig:revthreedfloorfinal}
 	\end{figure}
+
 	\item Reference the Figure \ref{fig:revthreedfloorfinal}, for a final look at what your 3d view should look like
 	 
 \end{enumerate}
+
+%----------------------------------------------------------------------------------------
+%
+% CHAPTER 5
+%
+%----------------------------------------------------------------------------------------
 
 \chapter{Chapter 5 - Creating Interior Walls}
 \label{ch:5}
 In this guide you will continue on your education of wall creation. This time in the perview of interior wals.
 \section{Creating Lower Level Interior Walls}
+
 \begin{enumerate}
 	\item Open up the following view: \menu{Side Bar > Project Browser > Floor Plans > 01 Lower Level}
 	\item Use the following options for your wall properties
@@ -689,6 +765,7 @@ In this guide you will continue on your education of wall creation. This time in
 	\end{tabular}
 	
 	\item Add walls:
+
 	\begin{enumerate}
 		\begin{marginfigure}
 			\includegraphics[width=\linewidth]{revitwalldistance.png}
@@ -696,9 +773,11 @@ In this guide you will continue on your education of wall creation. This time in
 			\emph{It should look like this when you click}
 			\label{fig:revwalldist}
 		\end{marginfigure}
+
 		\item Beginning at the far left wall, move your cursor until the guide states that you are \menu{20"0'} away from the right corner wall. Look at the figure \ref{fig:revwalldist} to determine how it should look when you click.
 		\item Create a wall perpendicular to that point, and bring it down until it reaches the far wall.
 		\item At this point, refer to the figure \ref{fig:revlowerlevelwallsfinal} to continue the walls on this level. It is not essential that your walls are exactly the same.
+
 		\begin{figure}
 			\includegraphics[width=\linewidth]{revitlowerlevelwallsfinal.png}
 			\caption{The lower level walls guide}
@@ -711,15 +790,21 @@ In this guide you will continue on your education of wall creation. This time in
 			\caption{The split tool selected}
 			\label{fig:revlowerlevelmodtool}
 		\end{marginfigure}
+
 		\item You should use the \menu{Modify | Place Walls > Modify > Split Element} tool to split a point in the far right interior wall, to create a hallway.
 		\item Select both end of the now split wall, to create the hallway. Check figure \ref{fig:revlowerlevelwallshallway} 
+ 
 		\begin{figure}
 			\includegraphics[width=\linewidth]{revitlowerlevelwallshallway.PNG}
 			\caption{A completed hallway}
 			\emph{Your hallway should look very similar, if not exact to this}
 			\label{fig:revlowerlevelwallshallway}
 		\end{figure}
+
 	\end{enumerate}
+
+%----------------------------------------------------------------------------------------
+
 	\section{Creating the Entry Level Walls}
 	\item In this section, you're going to take charge on the construction of the Entry Level walls, following a figure. This should be on view: \menu{Side Bar > Project Browser > Floor Plans > 02 Entry Level}, and using the following options:
 	
@@ -747,6 +832,12 @@ In this guide you will continue on your education of wall creation. This time in
 	\item When you are done creating the walls, if you wish to remove the ability to see the lowerlevel walls while on that level, use this option while the white background is clicked: \menu{Side Bar > Properties > View Level > View Depth > Level:} and change the option to \menu{Associated Level}
 \end{enumerate}
 
+%----------------------------------------------------------------------------------------
+%
+% CHAPTER 6
+%
+%----------------------------------------------------------------------------------------
+
 \chapter{Chapter 6 - Creating Doors and Windows}
 \label{ch:6}
 In this particular section, you will be guided into adding Doors and Windows, which also doubles as a guide to the initial selection of objects
@@ -754,21 +845,27 @@ In this particular section, you will be guided into adding Doors and Windows, wh
 \begin{enumerate}
 	\item Go to the view level: \menu{Side Bar > Project Browser > Floor Plans > 01 Lower Level}
 	
+%----------------------------------------------------------------------------------------
+
 	\subsection{Adding Objects from a Library}
 		\item Have the door tool selected, which is: \menu{Architecture > Build > Door}
+
 		\marginnote{The Tool: \menu{Model In-Place}, which is adjacent to \menu{Load Family} Allows you to create your own furniture right into the workspace. It is an advanced tool, but if you continue along the Revit path, you may come across that tool later}
 		\marginnote{Assume that our document root of this example is: \directory{C: / Program Data / Autodesk / RVT 2016 / Libraries / US Imperial}}
+
 		\item Inside the Modify bar is the following option: \menu{Modify | Place Door > Mode > Load Family} When you click on that, a popup with an object directory comes up
 		\item Go into the following directory to find the required object: \directory{Doors > Double-Glass.rfa}. If you are unable to find it, you can substitute it with any other available model.
 		\item A table should come up, this allows you to load in select objects in that door group, or all of them. Just click on the first cell of the table, which is \menu{68"x80"} and click \keys{OK}
 	\subsection{Creating the Lower Level Exterior Door}
 		\item After clicking OK, you should have the door selected. Place it on the bottom of the rightmost wall. When placing a door, the orientation that the door swings, is dependant on which side of the wall your mouse is closest to. You're going to want your mouse nearest to the right side of the wall. This will cause the door to swing out into the exterior. When referring to a doors orientation, we will refer to as an exterior or interior swing. If the door is inside, then the exterior is merely swinging outside the room that it is being placed.
+
 		\begin{marginfigure}
 			\includegraphics[width=\linewidth]{revitlowerexteriordoor.png}
 			\caption{The Revit Lower Level Exterior Door}
 			\emph{Your door should look similar to this, though the location doesn't have to be exact, it should be around the same area.}
 			\label{fig:revlowerouterdoor}
 		\end{marginfigure}
+
 		\item We can refer to this door in the same way as walls we placed earlier, using the following options table, as well as choosing different doors like choosing different walls
 		
 		\newthought{}\begin{tabular}{c | c}
@@ -777,32 +874,47 @@ In this particular section, you will be guided into adding Doors and Windows, wh
 			Sill Height & \menu{0'0"}\\
 			Head Height & \menu{6'8"}
 		\end{tabular}
+
+%----------------------------------------------------------------------------------------
+
 	\subsection{Creating the Entry Level Exterior Door}
 		\item Using the same door settings as before go to view: \menu{Side Bar > Project Browser > Floor Plans > 02 Entry Level}
+
 		\begin{marginfigure}
 			\includegraphics[width=\linewidth]{revitupperlevelexteriordoor.png}
 			\caption [Entry Level Exterior Door] {Your door should be placed only when you see the \menu{7'0"} guide marker next to your door. This represents the distance to the end of the Retaining Wall. Remember that there is a difference between your Retaining and Foundation Walls, your retaining walls are meant to Retain Terrain.}
 			\emph{Your door should look like this}
 			\label{fig:revupperouterdoor}
 		\end{marginfigure}
+
 		\item Prepare to place the door on the topmost retaining wall. Only place it when the guide lines show that you are \menu{7'0"} away from the right edge of the retaining wall, reference Figure \ref{fig:revupperouterdoor}
 		\item Load in an object like before, the directory is: \directory{Doors / Residential / Door-Interior-Single-Full Glass-Wood.rfa}. Select only the seventh cell down in the table and click \keys{OK}
+
 		\begin{marginfigure}
 			\includegraphics[width=\linewidth]{revitupperouterbalconydoor.png}
 			\caption{The Balcony Door}
 			\emph{Your door should look like this}
 			\label{fig:revupperouterbalcdoor}
 		\end{marginfigure}
+
 		\item Using that door, place a door with an interior swing on the balcony. Refer to Figure \ref{fig:revupperouterbalcdoor}
+
+%----------------------------------------------------------------------------------------
+
 	\section{Adding Interior Doors}
+
 	\item Stay on the Floor Plan that you're currently on.
 	\item Use the following door settings:
+
 		\newthought{}\begin{tabular}{c | c}
 			Settings & \menu{Single-Flush 30"x80"}\\
 			\hline
 			Sill Height & \menu{0'0"}\\
 			Head Height & \menu{6'8"}
 		\end{tabular}
+
+%----------------------------------------------------------------------------------------
+
 	\subsection{Entry Level Interior Doors}
 		\item There should be three identifiable rooms on the Entry Level: A Medium Sized Bedroom, A Closet, and Everything else.
 		\item Click on the \menu{Medium Size Bedroom} on it's bottom right edge. Put an interior facing door near the right edge of the bottomost wall of that room.
@@ -815,23 +927,32 @@ In this particular section, you will be guided into adding Doors and Windows, wh
 			\label{fig:revupperinterdoors}
 		\end{figure}
 		
+%----------------------------------------------------------------------------------------
+
 	\subsection{Lower Level Interior Doors}
 		\item You should use the same door settings as the previous sub-section
 		\item You should identify Five untique rooms: the \menu{Master Bedroom}, the smaller \menu{Closet 1}, the larger \menu{Closet 2}, The room which is larger than the closets, yet smaller than the Master Bed, the \menu{Bathroom}, and finally \menu{Everything Else}:
+
 		\marginnote{You can safely assume that the main room is the first listed. So when it's exterior facing, we mean the exterior of the main room.}
+
 		\begin{itemize}
 			\item Place a door on the \menu{Closet 1} connecting to \menu{Everything Else}, exterior facing
 			\item Place a door on the \menu{Closet 2} connecting to \menu{Everything Else}, exterior facing.
 			\item Place a door on the \menu{Bathroom} connecting to \menu{Everything Else}, interior facing
 			\item Place a door on the \menu{Master Bedroom} connecting to \menu{Everything Else}, interior facing.
 		\end{itemize}
+
 		\item Reference Figure \ref{fig:revlowerintwalls}
+
 		\begin{figure}
 			\includegraphics[width=\linewidth]{revitlowerlevelinteriorwalls.png}
 			\caption{Lower Level Interior Walls}
 			\emph{In this case, your doors do not have to look exactly like mine, although the orientation has to be correct. Look at the listing and see how the exterior and interior facing coincides with the picture. The leniency you have is, for instance, changing where you have the door of the \menu{Master Bedroom.}}
 			\label{fig:revlowerintwalls}
 		\end{figure}
+
+%----------------------------------------------------------------------------------------
+
 	\section{Adding Windows}
 	\subsection{Lower Level Windows}
 		\item Open up this view: \menu{Side Bar > Project Browser > Elevations > South}
@@ -856,6 +977,7 @@ In this particular section, you will be guided into adding Doors and Windows, wh
 		
 		\item Now go into the view: \menu{Side Bar > Project Browser > Floor Plans > 01 Lower Level}
 		\clearpage
+
 		\item If you do not see the windows in this view, go into these settings with the background selected: inside \menu{Side Bar > Properties > Extents > View Range > Primary Range > Cut Plane > Offset:} and set the number inside as \menu{6'0"}
 		\item Now you can properly move the windows. Select the right window and move it until it is \menu{2'6"} from the right interior walls, and move the left window until it is \menu{9'6"} from the leftmost wall. Reference figure \ref{fig:revlowerwindowfinal}
 		
@@ -866,6 +988,8 @@ In this particular section, you will be guided into adding Doors and Windows, wh
 			\label{fig:revlowerwindowfinal}
 		\end{figure}
 		
+%----------------------------------------------------------------------------------------
+
 	\subsection{Entry Level Windows}
 		\item You can use the same windows settings as in the previous section
 		\item Go to view: \menu{Side Bar > Project Browser > Floor Plans > 02 Entry Level}
@@ -899,10 +1023,20 @@ In this particular section, you will be guided into adding Doors and Windows, wh
 		\end{figure}
 \end{enumerate}
 		
+%----------------------------------------------------------------------------------------
+%
+% CHAPTER 7
+%
+%----------------------------------------------------------------------------------------
+
+
 \chapter{Chapter 7 - Creating a Curtain Wall, Connected Walls, and Entry Deck}
 \label{ch:7}
 In this section of the guide, you will be learning how to create new wall types, connecting walls to the roof, and creating an entry level deck.
 \begin{enumerate}
+
+%----------------------------------------------------------------------------------------
+
 \section{Creating a Curtain Wall}
 	\item Open up to view: \menu{Side Bar > Project Browser > Floor Plans > 01 Lower Level}
 	\item Using the \menu{Modify > Modify > Split Element} tool from when creating a hallway, split a point above the \menu{01 Lower Level} Exterior Door.
@@ -933,6 +1067,9 @@ In this section of the guide, you will be learning how to create new wall types,
 		\caption{The Final Curtain Wall Arrangement}
 		\label{fig:revcurtwallfinal}
 	\end{figure}
+
+%----------------------------------------------------------------------------------------
+
 	\subsection{Creating a Unique Curtain Wall Type}
 		\item Below the sections which allows you to change object types is the \menu{Edit Type} Button. If you click it, it gives you a more advanced version of the Object Options
 		\item Click \menu{Side Bar > Properties > Edit Type}
@@ -950,7 +1087,9 @@ In this section of the guide, you will be learning how to create new wall types,
 		\end{tabular}
 		
 		\item Click \menu{OK}
+
 		\marginnote{If your walls are not visible in 3D view, click on the little Lightbulb at the bottom of the screen. Your screen should go purple and you will be able to see it. Right click the missing wall, and in the context menu, select \menu{Unhide in View > Element} and click the Lightbulb again}
+
 		\item Go into the 3D view and admire your work.
 		
 		\begin{figure*}	
@@ -960,6 +1099,8 @@ In this section of the guide, you will be learning how to create new wall types,
 			\label{fig:revcurtthreedfinal}
 		\end{figure*}
 		
+%----------------------------------------------------------------------------------------
+
 \section{Attaching Walls to the Roof}
 	\item If not given proper instruction, attaching walls to the roof may be challenging, but is actually one of the most simple exercises in Revit
 	\item while in 3D view, \keys{Ctrl + Click} each exterior wall, excluding the Retaining walls.
@@ -981,6 +1122,8 @@ In this section of the guide, you will be learning how to create new wall types,
 		\emph{Note that the side door is missing in these past 3D visualizations, this is to keep the focus on the walls, and not the door.}
 	\end{figure*}
 	
+%----------------------------------------------------------------------------------------
+
 \section{Creating the Entry Deck}
 	\subsection{Creating the Initial Deck}
 		\item Open the view: \menu{Side Bar > Project Browser > Floor Plans > 02 Entry Level}
@@ -1019,6 +1162,8 @@ In this section of the guide, you will be learning how to create new wall types,
 			\label{fig:reventrywall}
 		\end{figure}
 		
+%----------------------------------------------------------------------------------------
+
 	\subsection{Shortening the Deck}
 		\item Click on the deck and click \menu{Modify | Floors > Mode > Edit Boundary}
 		\item Drag the leftmost line with your cursor until it is approximately \( \frac{1}{3} \) past the leftmost edge of the wall
@@ -1031,6 +1176,8 @@ In this section of the guide, you will be learning how to create new wall types,
 			\label{fig:reventrydeckretract}
 		\end{figure}
 	
+%----------------------------------------------------------------------------------------
+
 	\subsection{Adding a Sloped Floor}
 		\item select the \menu{Architecture > Build > Floor Tool}
 		\item Create another, seperate floor, where the retracted section once was.
@@ -1058,10 +1205,19 @@ In this section of the guide, you will be learning how to create new wall types,
 		\end{marginfigure}
 \end{enumerate}
 
+%----------------------------------------------------------------------------------------
+%
+% CHAPTER 8
+%
+%----------------------------------------------------------------------------------------
+
 \chapter{Chapter 8 - Creating Stairs and Railings}
 \label{ch:8}
 In this section of the guide you will complete the interior of the house. You will learn more about objects by placing Stairs and Railings
 \begin{enumerate}
+
+%----------------------------------------------------------------------------------------
+
 \section{Creating Stairs}
 	\item Enter the view: \menu{Side Bar > Project Browser > Floor Plans > 01 Lower Level}
 	\item Select the tool: \menu{Architecture > Circulation > Stair}
@@ -1096,16 +1252,20 @@ In this section of the guide you will complete the interior of the house. You wi
 	\end{figure}
 	
 	\item Change the railing type to: \menu{Railing Guardrail - Pipe }
+
+%----------------------------------------------------------------------------------------
 	
 \section{Creating Railing}
 	\item Go to the \menu{Side Bar > Project Browser > Floor Plans > 02 Entry Level} view
 	\item Select the tool: \menu{Architecture > Circulation > Railing}
+
 	\begin{marginfigure}
 		\includegraphics[width=\linewidth]{revitupperentryrail.png}
 		\caption{The Entry Level Railing}
 		\emph{Your Railing should look like this. You can stop the railing when you reach the side wall, but i suggest that you keep the railing until you reach the endpoint of the first floor segment}
 		\label{fig:revupperentryrail}
 	\end{marginfigure}
+
 	\item In your options, set: \menu{Options Bar > Offset:} to the setting \menu{0'4"}
 	\item Add railings to the Entry Deck. Reference Figure \ref{fig:revupperentryrail}
 	\item Your Railing options should be:
@@ -1116,7 +1276,6 @@ In this section of the guide you will complete the interior of the house. You wi
 		Base Level & \menu{02 Entry Level}
 	\end{tabular}
 	
-	
 	\item Do the same, except with the Floor that borders between the Curtain Walls, and the Stairs. Along with the side of the stairs. Use your own judgment, but also Reference the figure \ref{fig:revmainupperfloorrail}. \emph{Because of the location of railing, I suggest negating to \menu{Offset:} to \menu{-0'4"}}
 	\item Do the same, except for the Balcony. Make sure not to go through any walls
 
@@ -1125,6 +1284,8 @@ In this section of the guide you will complete the interior of the house. You wi
 		\caption[The Final Upper Railings]{Your final Railings should look like this. Look for the solid Black Lines.}
 		\label{fig:revupperfloorrailfinal}
 	\end{figure}
+
+%----------------------------------------------------------------------------------------
 	
 \section{Creating The Roof Eave}
 	\item Go to the view: \menu{Side Bar > Project Browser > Floor Plans > 03 Roof Level}
@@ -1147,10 +1308,15 @@ In this section of the guide you will complete the interior of the house. You wi
 	\end{figure*}
 \end{enumerate}
 
+%----------------------------------------------------------------------------------------
+
 \chapter{Chapter 9 - Creating the Project Documentation}
 \label{ch:9}
 In this final chapter, you will be documenting the creation of the house. Listing the furniture, explaining the location of the sun, and finally placing all of this information on a large piece of paper.
 \begin{enumerate}
+
+%----------------------------------------------------------------------------------------
+
 \section{Creating Section Views}
 	\item Go to the view: \menu{Side Bar > Project Browser > Floor Plans > 02 Entry Level}
 	\item Select this tool: \menu{View > Create > Section }
@@ -1163,6 +1329,8 @@ In this final chapter, you will be documenting the creation of the house. Listin
 	\end{figure}
 	
 	\item This should create a new View: \menu{Side Bar > Project Browser > Sections > Section 1}. Enter That View.
+
+%----------------------------------------------------------------------------------------
 	
 \section{Creating Door and Window Markers}
 	\item Go to the view: \menu{Side Bar > Project Browser > Floor Plans > 01 Lower Level}
@@ -1171,6 +1339,9 @@ In this final chapter, you will be documenting the creation of the house. Listin
 	\item Click on the door tags cell, which is the first one, and click \menu{Apply}. Don't click \menu{OK} yet
 	\item Now scroll down until you get to the cell that says \menu{Window Tags | Window Tag}. With that one selected click \menu{Apply}. Now you can click \menu{OK}
 	\item Go to view: \menu{Side Bar > Project Browser > Floor Plans > 02 Entry Level} and repeat the previous directions.
+
+%----------------------------------------------------------------------------------------
+
 \section{Create Schedules}
 	\subsection{Create a Door Schedule}
 		\item Click on the tool: \menu{View > Create > Schedules > Schedule Quantities}
@@ -1188,11 +1359,15 @@ In this final chapter, you will be documenting the creation of the house. Listin
 			\label{fig:revdoorschedule}
 		\end{marginfigure}
 		
+%----------------------------------------------------------------------------------------
+
 	\subsection{Creating a Room Schedule}
 		\item Do the same as you did with the previous. Select the Room option under \menu{Schedule Quantities} schedule, with these options, in this order: \keys{Name + Level + Area}
 		\item Click \menu{OK}
 		\item The schedule that appears will be empty, until you add room identification.
 		
+%----------------------------------------------------------------------------------------
+
 	\subsection{Creating Room Markers}
 		\item Go to view: \menu{Side Bar > Project Browser > Floor Plans > 01 Lower Level}
 		\item Go to the tool: \menu{Architecture > Room \& Area > Room}
@@ -1209,6 +1384,8 @@ In this final chapter, you will be documenting the creation of the house. Listin
 			\label{fig:revroommarkers}
 		\end{figure}
 		
+%----------------------------------------------------------------------------------------
+
 	\subsection{Add Color to the Room Markers}
 		\item Go to view: \menu{Side Bar > Project Browser > Floor Plans > 01 Lower Level}
 		\item Select the following tool: \menu{Annotate > Color Fill > Color Fill Legend}
@@ -1222,6 +1399,8 @@ In this final chapter, you will be documenting the creation of the house. Listin
 			\label{fig:revroomcolor}
 		\end{figure*}
 		
+%----------------------------------------------------------------------------------------
+
 	\subsection{Creating a Solar Study}
 		\item On the bottom bar you have an image of a sun. If you click the image of the sun, you can click the following menu: \menu{Sun Settings}
 		\item The settings should be \menu{Single Day}
@@ -1229,6 +1408,8 @@ In this final chapter, you will be documenting the creation of the house. Listin
 		\item Clicking on the sun icon again click \menu{Sun Path ON}
 		\item You have just created your Solar Study
 		
+%----------------------------------------------------------------------------------------
+
 \section{Create a Sheet}
 	\item On the \menu{Side Bar > Project Browser} is a section called \menu{Sheets (ALL)}
 	\item Right click on that section, and click \menu{New Sheet...}
@@ -1240,7 +1421,7 @@ In this final chapter, you will be documenting the creation of the house. Listin
 		\item \menu{Side Bar > Project Browser > Floor Plans > 02 Lower Level}
 		\item \menu{Side Bar > Project Browser > Elevations East}
 		\item \menu{Side Bar > Project Browser > Elevations > South}
-		\item And all your schedules
+		\item And all your schedules, and /menu{3D View}
 	\end{itemize}
 	\item If you need to you, you can create two sheets to fit everything
 	\item You can click on the titles in the sheet to change them, I suggest adding your name.
